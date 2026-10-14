@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-29T19:08:25.726Z",
+  "generated_at": "2026-10-14T14:02:19.962Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
   "methodology": "https://selfhostatlas.com/how-we-test",
-  "record_count": 240,
+  "record_count": 246,
   "records": [
     {
       "slug": "activepieces",
@@ -67,12 +67,12 @@
       "is_docker_ready": true,
       "documented_min_ram_mb": 2048,
       "install_verified_os": "Ubuntu 26.04",
-      "install_verified_date": "2026-09-29",
-      "measured_ram_mb": 213,
-      "measured_disk_mb": 1543,
-      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
-      "measured_on": "2026-09-29",
-      "content_updated": "2026-09-29"
+      "install_verified_date": "2026-10-14",
+      "measured_ram_mb": 223,
+      "measured_disk_mb": 1670,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-14",
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "agentarea",
@@ -124,6 +124,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
       "measured_on": "2026-09-28",
       "content_updated": "2026-07-14"
+    },
+    {
+      "slug": "appflowy",
+      "title": "AppFlowy",
+      "category": "notes",
+      "license": "AGPL-3.0 (client apps) + AppFlowy Self-Hosted Commercial License (server; free tier)",
+      "repo_url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "website_url": "https://appflowy.com",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 2048,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-12",
+      "measured_ram_mb": 483,
+      "measured_disk_mb": 3159,
+      "measured_box": "GCP e2-standard-4 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-12",
+      "content_updated": "2026-10-12"
     },
     {
       "slug": "apprise-api",
@@ -593,13 +610,13 @@
       "website_url": "https://www.discourse.org",
       "is_docker_ready": true,
       "documented_min_ram_mb": 1024,
-      "install_verified_os": null,
-      "install_verified_date": null,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-14",
       "measured_ram_mb": null,
       "measured_disk_mb": null,
       "measured_box": null,
       "measured_on": null,
-      "content_updated": "2026-09-27"
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "docker-mailserver",
@@ -899,13 +916,13 @@
       "website_url": "https://flarum.org",
       "is_docker_ready": false,
       "documented_min_ram_mb": 512,
-      "install_verified_os": null,
-      "install_verified_date": null,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-14",
       "measured_ram_mb": null,
       "measured_disk_mb": null,
       "measured_box": null,
       "measured_on": null,
-      "content_updated": "2026-09-27"
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "forgejo",
@@ -1018,13 +1035,13 @@
       "website_url": "https://ghost.org",
       "is_docker_ready": true,
       "documented_min_ram_mb": 1024,
-      "install_verified_os": null,
-      "install_verified_date": null,
-      "measured_ram_mb": null,
-      "measured_disk_mb": null,
-      "measured_box": null,
-      "measured_on": null,
-      "content_updated": "2026-09-29"
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-14",
+      "measured_ram_mb": 645,
+      "measured_disk_mb": 2439,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-14",
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "ghostfolio",
@@ -1478,12 +1495,12 @@
       "is_docker_ready": true,
       "documented_min_ram_mb": 4096,
       "install_verified_os": "Ubuntu 26.04",
-      "install_verified_date": "2026-09-29",
-      "measured_ram_mb": 1388,
-      "measured_disk_mb": 3356,
-      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
-      "measured_on": "2026-09-29",
-      "content_updated": "2026-09-29"
+      "install_verified_date": "2026-10-14",
+      "measured_ram_mb": 995,
+      "measured_disk_mb": 3374,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-14",
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "invoiceninja",
@@ -1495,12 +1512,12 @@
       "is_docker_ready": true,
       "documented_min_ram_mb": 2048,
       "install_verified_os": "Ubuntu 26.04",
-      "install_verified_date": "2026-09-29",
-      "measured_ram_mb": 1051,
-      "measured_disk_mb": 5719,
-      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
-      "measured_on": "2026-09-29",
-      "content_updated": "2026-09-29"
+      "install_verified_date": "2026-10-14",
+      "measured_ram_mb": 1034,
+      "measured_disk_mb": 5676,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-14",
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "it-tools",
@@ -1843,6 +1860,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "langfuse",
+      "title": "Langfuse",
+      "category": "observability",
+      "license": "MIT core with proprietary enterprise modules",
+      "repo_url": "https://github.com/langfuse/langfuse",
+      "website_url": "https://langfuse.com",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 4096,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-12",
+      "measured_ram_mb": 2657,
+      "measured_disk_mb": 5293,
+      "measured_box": "GCP e2-standard-4 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-12",
+      "content_updated": "2026-10-12"
+    },
+    {
       "slug": "leantime",
       "title": "Leantime",
       "category": "project-management",
@@ -1994,6 +2028,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
       "measured_on": "2026-09-29",
       "content_updated": "2026-09-29"
+    },
+    {
+      "slug": "litellm",
+      "title": "LiteLLM",
+      "category": "ai-chat-interfaces",
+      "license": "MIT core with proprietary enterprise modules",
+      "repo_url": "https://github.com/BerriAI/litellm",
+      "website_url": "https://docs.litellm.ai",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 1024,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-12",
+      "measured_ram_mb": 610,
+      "measured_disk_mb": 2359,
+      "measured_box": "GCP e2-standard-4 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-12",
+      "content_updated": "2026-10-12"
     },
     {
       "slug": "lldap",
@@ -2481,12 +2532,12 @@
       "is_docker_ready": true,
       "documented_min_ram_mb": 2048,
       "install_verified_os": "Ubuntu 26.04",
-      "install_verified_date": "2026-09-28",
-      "measured_ram_mb": 106,
-      "measured_disk_mb": 3470,
-      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
-      "measured_on": "2026-09-28",
-      "content_updated": "2026-08-05"
+      "install_verified_date": "2026-10-14",
+      "measured_ram_mb": 176,
+      "measured_disk_mb": 3618,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-14",
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "ollama",
@@ -3016,6 +3067,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "posthog",
+      "title": "PostHog",
+      "category": "web-analytics",
+      "license": "MIT core with proprietary enterprise modules",
+      "repo_url": "https://github.com/PostHog/posthog",
+      "website_url": "https://posthog.com/docs/self-host",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 16384,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-13",
+      "measured_ram_mb": 16824,
+      "measured_disk_mb": 27324,
+      "measured_box": "GCP e2-standard-8 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-13",
+      "content_updated": "2026-10-13"
+    },
+    {
       "slug": "privatebin",
       "title": "PrivateBin",
       "category": "pastebin",
@@ -3186,6 +3254,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "rustdesk",
+      "title": "RustDesk",
+      "category": "vpn-mesh-networking",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/rustdesk/rustdesk",
+      "website_url": "https://rustdesk.com",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 256,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-12",
+      "measured_ram_mb": 3,
+      "measured_disk_mb": 19,
+      "measured_box": "GCP e2-standard-4 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-12",
+      "content_updated": "2026-10-12"
+    },
+    {
       "slug": "rybbit",
       "title": "Rybbit",
       "category": "web-analytics",
@@ -3269,6 +3354,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
       "measured_on": "2026-09-29",
       "content_updated": "2026-09-29"
+    },
+    {
+      "slug": "sentry",
+      "title": "Sentry",
+      "category": "error-tracking",
+      "license": "FSL-1.1-Apache-2.0",
+      "repo_url": "https://github.com/getsentry/self-hosted",
+      "website_url": "https://develop.sentry.dev/self-hosted/",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 16384,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-13",
+      "measured_ram_mb": 13284,
+      "measured_disk_mb": 14609,
+      "measured_box": "GCP e2-standard-4 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-13",
+      "content_updated": "2026-10-13"
     },
     {
       "slug": "sftpgo",
@@ -3960,12 +4062,12 @@
       "is_docker_ready": true,
       "documented_min_ram_mb": 1024,
       "install_verified_os": "Ubuntu 26.04",
-      "install_verified_date": "2026-09-29",
-      "measured_ram_mb": 394,
-      "measured_disk_mb": 2426,
-      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
-      "measured_on": "2026-09-29",
-      "content_updated": "2026-09-29"
+      "install_verified_date": "2026-10-14",
+      "measured_ram_mb": 524,
+      "measured_disk_mb": 2813,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
+      "measured_on": "2026-10-14",
+      "content_updated": "2026-10-14"
     },
     {
       "slug": "writefreely",

@@ -6,6 +6,7 @@ affine,AFFiNE,notes,MIT (client) + AFFiNE EE License (server; Community Edition 
 agentarea,AgentArea,ai-agent-platforms,Apache-2.0,Python|Next.js|Go|Temporal,true,true,4,4096,
 akaunting,Akaunting,invoicing,BSL-1.1,PHP|Laravel|Vue.js|MariaDB,true,true,2,512,
 anythingllm,AnythingLLM,ai-chat-interfaces,MIT,JavaScript|Node.js|React,true,true,2,2048,chatgpt
+appflowy,AppFlowy,notes,AGPL-3.0 (client apps) + AppFlowy Self-Hosted Commercial License (server; free tier),Flutter|Rust|PostgreSQL,true,true,4,2048,notion
 apprise-api,Apprise API,push-notifications,MIT,Python|Django,true,true,1,256,
 appwrite,Appwrite,backend-baas,BSD-3-Clause,PHP|MongoDB,true,true,3,4096,firebase
 audiobookshelf,Audiobookshelf,media-server,GPL-3.0,JavaScript|Node.js,true,true,2,512,audible
@@ -107,6 +108,7 @@ kopia,Kopia,backup,Apache-2.0,Go,true,true,2,512,
 krayin,Krayin CRM,crm,MIT,PHP|Laravel|Vue.js,true,true,3,3072,
 kutt,Kutt,url-shortener,MIT,Node.js|SQLite,true,true,1,256,
 langflow,Langflow,ai-agent-platforms,MIT,Python|FastAPI|React|TypeScript,true,true,2,2048,
+langfuse,Langfuse,observability,MIT core with proprietary enterprise modules,TypeScript|Next.js|PostgreSQL|ClickHouse|Redis,true,true,3,4096,
 leantime,Leantime,project-management,AGPL-3.0,PHP|JavaScript|MySQL,true,true,2,1024,trello|asana
 lemmy,Lemmy,social-network-fediverse,AGPL-3.0,Rust|TypeScript|PostgreSQL,true,true,3,1024,
 librechat,LibreChat,ai-chat-interfaces,MIT,TypeScript|React|Node.js|MongoDB,true,true,3,2048,chatgpt
@@ -116,6 +118,7 @@ linkding,linkding,bookmarks,MIT,Python|Django,true,true,1,256,pocket
 linkstack,LinkStack,link-in-bio,AGPL-3.0,PHP|Laravel,true,true,1,256,
 linkwarden,Linkwarden,bookmarks,AGPL-3.0,TypeScript|Next.js,true,true,2,4096,pocket
 listmonk,listmonk,newsletter,AGPL-3.0,Go|Vue|PostgreSQL,true,true,2,512,
+litellm,LiteLLM,ai-chat-interfaces,MIT core with proprietary enterprise modules,Python|FastAPI|PostgreSQL,true,true,2,1024,
 lldap,LLDAP,sso-identity,GPL-3.0,Rust|SQLite,true,true,1,128,
 lobehub,LobeHub,ai-chat-interfaces,LobeHub Community License,TypeScript|Next.js|PostgreSQL,true,true,2,2048,chatgpt
 localai,LocalAI,ai-chat-interfaces,MIT,Go,true,true,2,4096,chatgpt|lm-studio
@@ -176,6 +179,7 @@ plex,Plex,media-server,Proprietary,Proprietary core,true,true,2,2048,
 pocket-id,Pocket ID,sso-identity,BSD-2-Clause,Go|SvelteKit,true,true,2,256,
 pocketbase,PocketBase,backend-baas,MIT,Go|SQLite,true,false,1,512,firebase
 portainer,Portainer CE,container-management,Zlib,Go|TypeScript,true,true,1,256,
+posthog,PostHog,web-analytics,MIT core with proprietary enterprise modules,Python|Django|TypeScript|Rust|ClickHouse|PostgreSQL|Kafka,true,true,4,16384,google-analytics
 privatebin,PrivateBin,pastebin,Zlib,PHP|JavaScript,true,true,1,128,
 prometheus,Prometheus,observability,Apache-2.0,Go,true,true,2,2048,datadog
 prowlarr,Prowlarr,media-automation,GPL-3.0,C#|.NET|React,true,true,2,256,
@@ -186,11 +190,13 @@ rallly,Rallly,scheduling,AGPL-3.0,TypeScript|Next.js|PostgreSQL|Prisma,true,true
 restic,restic,backup,BSD-2-Clause,Go,true,true,2,512,
 rocket-chat,Rocket.Chat,team-chat,MIT,Node.js|MongoDB,true,true,3,8192,slack
 romm,RomM,game-library,AGPL-3.0,Python|FastAPI|Vue,true,true,2,2048,
+rustdesk,RustDesk,vpn-mesh-networking,AGPL-3.0,Rust|Flutter,true,true,2,256,
 rybbit,Rybbit,web-analytics,AGPL-3.0,TypeScript|ClickHouse|PostgreSQL|Redis,true,true,2,2048,google-analytics
 seafile,Seafile,file-sync-storage,AGPL-3.0,C|Go|Python,true,true,3,2048,dropbox
 searxng,SearXNG,search-engine,AGPL-3.0,Python|Flask,true,true,1,512,
 seerr,Seerr,media-automation,MIT,TypeScript|Node.js|Next.js,true,true,2,512,
 semaphore,Semaphore UI,ci-cd,MIT,Go|Vue,true,true,2,512,
+sentry,Sentry,error-tracking,FSL-1.1-Apache-2.0,Python|Django|Rust|ClickHouse|PostgreSQL|Kafka,true,true,4,16384,sentry
 sftpgo,SFTPGo,file-sharing,AGPL-3.0,Go,true,true,2,256,
 shiori,Shiori,bookmarks,MIT,Go,true,true,1,256,pocket
 shlink,Shlink,url-shortener,MIT,PHP,true,true,2,256,

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-29T19:08:25.934Z",
+  "generated_at": "2026-10-14T14:02:20.221Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
-  "record_count": 240,
+  "record_count": 246,
   "records": [
     {
       "slug": "activepieces",
@@ -125,6 +125,24 @@
       "documented_min_ram_mb": 2048,
       "alternative_to_saas": [
         "chatgpt"
+      ]
+    },
+    {
+      "slug": "appflowy",
+      "title": "AppFlowy",
+      "category": "notes",
+      "license": "AGPL-3.0 (client apps) + AppFlowy Self-Hosted Commercial License (server; free tier)",
+      "stack": [
+        "Flutter",
+        "Rust",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 4,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": [
+        "notion"
       ]
     },
     {
@@ -1785,6 +1803,24 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "langfuse",
+      "title": "Langfuse",
+      "category": "observability",
+      "license": "MIT core with proprietary enterprise modules",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "ClickHouse",
+        "Redis"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 4096,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "leantime",
       "title": "Leantime",
       "category": "project-management",
@@ -1932,6 +1968,22 @@
       "is_docker_ready": true,
       "difficulty": 2,
       "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "litellm",
+      "title": "LiteLLM",
+      "category": "ai-chat-interfaces",
+      "license": "MIT core with proprietary enterprise modules",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
       "alternative_to_saas": []
     },
     {
@@ -2937,6 +2989,28 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "posthog",
+      "title": "PostHog",
+      "category": "web-analytics",
+      "license": "MIT core with proprietary enterprise modules",
+      "stack": [
+        "Python",
+        "Django",
+        "TypeScript",
+        "Rust",
+        "ClickHouse",
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 4,
+      "documented_min_ram_mb": 16384,
+      "alternative_to_saas": [
+        "google-analytics"
+      ]
+    },
+    {
       "slug": "privatebin",
       "title": "PrivateBin",
       "category": "pastebin",
@@ -3099,6 +3173,21 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "rustdesk",
+      "title": "RustDesk",
+      "category": "vpn-mesh-networking",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Rust",
+        "Flutter"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "rybbit",
       "title": "Rybbit",
       "category": "web-analytics",
@@ -3180,6 +3269,27 @@
       "difficulty": 2,
       "documented_min_ram_mb": 512,
       "alternative_to_saas": []
+    },
+    {
+      "slug": "sentry",
+      "title": "Sentry",
+      "category": "error-tracking",
+      "license": "FSL-1.1-Apache-2.0",
+      "stack": [
+        "Python",
+        "Django",
+        "Rust",
+        "ClickHouse",
+        "PostgreSQL",
+        "Kafka"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 4,
+      "documented_min_ram_mb": 16384,
+      "alternative_to_saas": [
+        "sentry"
+      ]
     },
     {
       "slug": "sftpgo",
