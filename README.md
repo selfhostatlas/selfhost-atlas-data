@@ -148,11 +148,11 @@ GitHub's **Cite this repository** button (from `CITATION.cff`) gives the same in
 ```json
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-26T21:32:47.328Z",
+  "generated_at": "2026-10-16T12:09:55.646Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
   "methodology": "https://selfhostatlas.com/how-we-test",
-  "record_count": 118,
+  "record_count": 256,
   "records": [ /* … sorted by slug … */ ]
 }
 ```
