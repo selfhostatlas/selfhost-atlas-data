@@ -8,7 +8,7 @@ authors:
 license: CC-BY-4.0
 doi: "10.5281/zenodo.22983606"
 url: "https://selfhostatlas.com/how-we-test"
-repository: "https://github.com/usualdesigner/selfhost-atlas-data"
+repository: "https://github.com/selfhostatlas/selfhost-atlas-data"
 abstract: >-
   Self-hostable applications whose published install instructions were run
   unmodified on a fresh cloud server, with the OS and date of each run, plus
