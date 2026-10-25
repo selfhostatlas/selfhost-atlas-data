@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-10-25T13:04:10.377Z",
+  "generated_at": "2026-10-25T13:41:14.558Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
   "methodology": "https://selfhostatlas.com/how-we-test",
-  "record_count": 295,
+  "record_count": 312,
   "records": [
     {
       "slug": "2fauth",
@@ -73,6 +73,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
       "measured_on": "2026-09-28",
       "content_updated": "2026-09-19"
+    },
+    {
+      "slug": "adminer",
+      "title": "Adminer",
+      "category": "database-admin",
+      "license": "Apache-2.0 OR GPL-2.0",
+      "repo_url": "https://github.com/vrana/adminer",
+      "website_url": "https://www.adminer.org",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 128,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 107,
+      "measured_disk_mb": 757,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "affine",
@@ -602,6 +619,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "commafeed",
+      "title": "CommaFeed",
+      "category": "rss-reader",
+      "license": "Apache-2.0",
+      "repo_url": "https://github.com/Athou/commafeed",
+      "website_url": "https://github.com/Athou/commafeed",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 256,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 72,
+      "measured_disk_mb": 420,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "coolify",
       "title": "Coolify",
       "category": "platform-as-a-service",
@@ -908,6 +942,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "drawio",
+      "title": "draw.io",
+      "category": "whiteboard",
+      "license": "Apache-2.0",
+      "repo_url": "https://github.com/jgraph/drawio",
+      "website_url": "https://www.drawio.com",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 512,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 157,
+      "measured_disk_mb": 1208,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "drupal",
       "title": "Drupal",
       "category": "cms-blogging",
@@ -976,6 +1027,23 @@
       "content_updated": "2026-09-27"
     },
     {
+      "slug": "endurain",
+      "title": "Endurain",
+      "category": "fitness",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/endurain-project/endurain",
+      "website_url": "https://docs.endurain.com",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 512,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 222,
+      "measured_disk_mb": 1742,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "ente",
       "title": "Ente",
       "category": "photo-backup-gallery",
@@ -1008,6 +1076,23 @@
       "measured_box": null,
       "measured_on": null,
       "content_updated": "2026-09-27"
+    },
+    {
+      "slug": "esphome",
+      "title": "ESPHome",
+      "category": "home-automation",
+      "license": "MIT (Python) + GPL-3.0 (C++ runtime)",
+      "repo_url": "https://github.com/esphome/esphome",
+      "website_url": "https://esphome.io",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 512,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 100,
+      "measured_disk_mb": 1102,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "espocrm",
@@ -1790,6 +1875,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
       "measured_on": "2026-10-14",
       "content_updated": "2026-10-14"
+    },
+    {
+      "slug": "invoiceshelf",
+      "title": "InvoiceShelf",
+      "category": "invoicing",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/InvoiceShelf/InvoiceShelf",
+      "website_url": "https://invoiceshelf.com",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 512,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 111,
+      "measured_disk_mb": 710,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "it-tools",
@@ -2727,6 +2829,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "microbin",
+      "title": "MicroBin",
+      "category": "pastebin",
+      "license": "BSD-3-Clause",
+      "repo_url": "https://github.com/szabodanika/microbin",
+      "website_url": "https://microbin.eu",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 64,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 5,
+      "measured_disk_mb": 204,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "milvus",
       "title": "Milvus",
       "category": "vector-database",
@@ -2776,6 +2895,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
       "measured_on": "2026-09-28",
       "content_updated": "2026-08-04"
+    },
+    {
+      "slug": "mosquitto",
+      "title": "Eclipse Mosquitto",
+      "category": "home-automation",
+      "license": "EPL-2.0 OR BSD-3-Clause",
+      "repo_url": "https://github.com/eclipse-mosquitto/mosquitto",
+      "website_url": "https://mosquitto.org",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 64,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 3,
+      "measured_disk_mb": 40,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "n8n",
@@ -3135,6 +3271,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "openhab",
+      "title": "openHAB",
+      "category": "home-automation",
+      "license": "EPL-2.0",
+      "repo_url": "https://github.com/openhab/openhab-distro",
+      "website_url": "https://www.openhab.org",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 1024,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 512,
+      "measured_disk_mb": 1406,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "openhands",
       "title": "OpenHands",
       "category": "ai-coding-agents",
@@ -3458,6 +3611,23 @@
       "content_updated": "2026-09-29"
     },
     {
+      "slug": "pgweb",
+      "title": "pgweb",
+      "category": "database-admin",
+      "license": "MIT",
+      "repo_url": "https://github.com/sosedoff/pgweb",
+      "website_url": "https://sosedoff.github.io/pgweb/",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 64,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 34,
+      "measured_disk_mb": 908,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "photoprism",
       "title": "PhotoPrism",
       "category": "photo-backup-gallery",
@@ -3473,6 +3643,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
       "measured_on": "2026-10-24",
       "content_updated": "2026-09-19"
+    },
+    {
+      "slug": "phpmyadmin",
+      "title": "phpMyAdmin",
+      "category": "database-admin",
+      "license": "GPL-2.0",
+      "repo_url": "https://github.com/phpmyadmin/phpmyadmin",
+      "website_url": "https://www.phpmyadmin.net",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 256,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 122,
+      "measured_disk_mb": 1383,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "pigallery2",
@@ -4155,6 +4342,23 @@
       "content_updated": "2026-08-28"
     },
     {
+      "slug": "solidtime",
+      "title": "solidtime",
+      "category": "time-tracking",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/solidtime-io/solidtime",
+      "website_url": "https://www.solidtime.io",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 1024,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 424,
+      "measured_disk_mb": 4644,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "sonarr",
       "title": "Sonarr",
       "category": "media-automation",
@@ -4204,6 +4408,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2",
       "measured_on": "2026-08-28",
       "content_updated": "2026-08-28"
+    },
+    {
+      "slug": "step-ca",
+      "title": "step-ca",
+      "category": "security",
+      "license": "Apache-2.0",
+      "repo_url": "https://github.com/smallstep/certificates",
+      "website_url": "https://smallstep.com/docs/step-ca/",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 128,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 13,
+      "measured_disk_mb": 190,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "stirling-pdf",
@@ -4444,6 +4665,23 @@
       "content_updated": "2026-10-25"
     },
     {
+      "slug": "timetagger",
+      "title": "TimeTagger",
+      "category": "time-tracking",
+      "license": "GPL-3.0",
+      "repo_url": "https://github.com/almarklein/timetagger",
+      "website_url": "https://timetagger.app",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 128,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 72,
+      "measured_disk_mb": 412,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "tinyauth",
       "title": "Tinyauth",
       "category": "sso-identity",
@@ -4493,6 +4731,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1",
       "measured_on": "2026-09-28",
       "content_updated": "2026-07-25"
+    },
+    {
+      "slug": "traggo",
+      "title": "Traggo",
+      "category": "time-tracking",
+      "license": "GPL-3.0",
+      "repo_url": "https://github.com/traggo/server",
+      "website_url": "https://traggo.net",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 128,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 4,
+      "measured_disk_mb": 24,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "trilium",
@@ -4733,6 +4988,23 @@
       "content_updated": "2026-09-19"
     },
     {
+      "slug": "wbo",
+      "title": "WBO",
+      "category": "whiteboard",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/lovasoa/whitebophir",
+      "website_url": "https://wbo.ophir.dev",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 128,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 42,
+      "measured_disk_mb": 514,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
+    },
+    {
       "slug": "weaviate",
       "title": "Weaviate",
       "category": "vector-database",
@@ -4867,6 +5139,23 @@
       "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.0",
       "measured_on": "2026-10-14",
       "content_updated": "2026-10-14"
+    },
+    {
+      "slug": "workout-tracker",
+      "title": "Workout Tracker",
+      "category": "fitness",
+      "license": "MIT",
+      "repo_url": "https://github.com/jovandeginste/workout-tracker",
+      "website_url": "https://github.com/jovandeginste/workout-tracker",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 128,
+      "install_verified_os": "Ubuntu 26.04",
+      "install_verified_date": "2026-10-25",
+      "measured_ram_mb": 59,
+      "measured_disk_mb": 187,
+      "measured_box": "GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.9.2",
+      "measured_on": "2026-10-25",
+      "content_updated": "2026-10-25"
     },
     {
       "slug": "writefreely",

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-25T13:04:10.560Z",
+  "generated_at": "2026-10-25T13:41:14.739Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
-  "record_count": 295,
+  "record_count": 312,
   "records": [
     {
       "slug": "2fauth",
@@ -69,6 +69,20 @@
       "is_docker_ready": true,
       "difficulty": 2,
       "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "adminer",
+      "title": "Adminer",
+      "category": "database-admin",
+      "license": "Apache-2.0 OR GPL-2.0",
+      "stack": [
+        "PHP"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
       "alternative_to_saas": []
     },
     {
@@ -603,6 +617,24 @@
       ]
     },
     {
+      "slug": "commafeed",
+      "title": "CommaFeed",
+      "category": "rss-reader",
+      "license": "Apache-2.0",
+      "stack": [
+        "Java",
+        "Quarkus",
+        "H2"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": [
+        "feedly"
+      ]
+    },
+    {
       "slug": "coolify",
       "title": "Coolify",
       "category": "platform-as-a-service",
@@ -906,6 +938,21 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "drawio",
+      "title": "draw.io",
+      "category": "whiteboard",
+      "license": "Apache-2.0",
+      "stack": [
+        "Java",
+        "JavaScript"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "drupal",
       "title": "Drupal",
       "category": "cms-blogging",
@@ -968,6 +1015,22 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "endurain",
+      "title": "Endurain",
+      "category": "fitness",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Python",
+        "Vue",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "ente",
       "title": "Ente",
       "category": "photo-backup-gallery",
@@ -1002,6 +1065,21 @@
       "alternative_to_saas": [
         "quickbooks"
       ]
+    },
+    {
+      "slug": "esphome",
+      "title": "ESPHome",
+      "category": "home-automation",
+      "license": "MIT (Python) + GPL-3.0 (C++ runtime)",
+      "stack": [
+        "Python",
+        "C++"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
     },
     {
       "slug": "espocrm",
@@ -1764,6 +1842,25 @@
       "is_docker_ready": true,
       "difficulty": 2,
       "documented_min_ram_mb": 2048,
+      "alternative_to_saas": [
+        "quickbooks"
+      ]
+    },
+    {
+      "slug": "invoiceshelf",
+      "title": "InvoiceShelf",
+      "category": "invoicing",
+      "license": "AGPL-3.0",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Vue",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
       "alternative_to_saas": [
         "quickbooks"
       ]
@@ -2683,6 +2780,20 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "microbin",
+      "title": "MicroBin",
+      "category": "pastebin",
+      "license": "BSD-3-Clause",
+      "stack": [
+        "Rust"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 64,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "milvus",
       "title": "Milvus",
       "category": "vector-database",
@@ -2732,6 +2843,20 @@
       "is_docker_ready": true,
       "difficulty": 2,
       "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "mosquitto",
+      "title": "Eclipse Mosquitto",
+      "category": "home-automation",
+      "license": "EPL-2.0 OR BSD-3-Clause",
+      "stack": [
+        "C"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 64,
       "alternative_to_saas": []
     },
     {
@@ -3082,6 +3207,21 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "openhab",
+      "title": "openHAB",
+      "category": "home-automation",
+      "license": "EPL-2.0",
+      "stack": [
+        "Java",
+        "OSGi"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "openhands",
       "title": "OpenHands",
       "category": "ai-coding-agents",
@@ -3416,6 +3556,20 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "pgweb",
+      "title": "pgweb",
+      "category": "database-admin",
+      "license": "MIT",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 64,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "photoprism",
       "title": "PhotoPrism",
       "category": "photo-backup-gallery",
@@ -3431,6 +3585,20 @@
       "alternative_to_saas": [
         "google-photos"
       ]
+    },
+    {
+      "slug": "phpmyadmin",
+      "title": "phpMyAdmin",
+      "category": "database-admin",
+      "license": "GPL-2.0",
+      "stack": [
+        "PHP"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
     },
     {
       "slug": "pigallery2",
@@ -4099,6 +4267,23 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "solidtime",
+      "title": "solidtime",
+      "category": "time-tracking",
+      "license": "AGPL-3.0",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "Vue",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "sonarr",
       "title": "Sonarr",
       "category": "media-automation",
@@ -4145,6 +4330,20 @@
         "google-workspace",
         "microsoft-365"
       ]
+    },
+    {
+      "slug": "step-ca",
+      "title": "step-ca",
+      "category": "security",
+      "license": "Apache-2.0",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 128,
+      "alternative_to_saas": []
     },
     {
       "slug": "stirling-pdf",
@@ -4387,6 +4586,21 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "timetagger",
+      "title": "TimeTagger",
+      "category": "time-tracking",
+      "license": "GPL-3.0",
+      "stack": [
+        "Python",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "tinyauth",
       "title": "Tinyauth",
       "category": "sso-identity",
@@ -4431,6 +4645,21 @@
       "is_docker_ready": true,
       "difficulty": 3,
       "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "traggo",
+      "title": "Traggo",
+      "category": "time-tracking",
+      "license": "GPL-3.0",
+      "stack": [
+        "Go",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
       "alternative_to_saas": []
     },
     {
@@ -4675,6 +4904,21 @@
       ]
     },
     {
+      "slug": "wbo",
+      "title": "WBO",
+      "category": "whiteboard",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Node.js",
+        "JavaScript"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "weaviate",
       "title": "Weaviate",
       "category": "vector-database",
@@ -4809,6 +5053,21 @@
       "is_docker_ready": true,
       "difficulty": 1,
       "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "workout-tracker",
+      "title": "Workout Tracker",
+      "category": "fitness",
+      "license": "MIT",
+      "stack": [
+        "Go",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
       "alternative_to_saas": []
     },
     {
