@@ -1,10 +1,26 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-19T19:13:55.840Z",
+  "generated_at": "2026-10-25T13:04:10.560Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
-  "record_count": 285,
+  "record_count": 295,
   "records": [
+    {
+      "slug": "2fauth",
+      "title": "2FAuth",
+      "category": "security",
+      "license": "AGPL-3.0",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
     {
       "slug": "activepieces",
       "title": "Activepieces",
@@ -431,6 +447,22 @@
       "is_self_hostable": true,
       "is_docker_ready": true,
       "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "calibre-web-automated",
+      "title": "Calibre-Web Automated",
+      "category": "e-books-comics",
+      "license": "GPL-3.0",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
       "documented_min_ram_mb": 512,
       "alternative_to_saas": []
     },
@@ -1286,6 +1318,22 @@
       ]
     },
     {
+      "slug": "goalert",
+      "title": "GoAlert",
+      "category": "monitoring",
+      "license": "Apache-2.0",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "goatcounter",
       "title": "GoatCounter",
       "category": "web-analytics",
@@ -1502,6 +1550,22 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "hertzbeat",
+      "title": "Apache HertzBeat",
+      "category": "monitoring",
+      "license": "Apache-2.0",
+      "stack": [
+        "Java",
+        "TypeScript",
+        "H2"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "heyform",
       "title": "HeyForm",
       "category": "forms-surveys",
@@ -1634,6 +1698,22 @@
         "linear",
         "jira"
       ]
+    },
+    {
+      "slug": "hyperdx",
+      "title": "HyperDX (ClickStack)",
+      "category": "observability",
+      "license": "MIT",
+      "stack": [
+        "TypeScript",
+        "ClickHouse",
+        "MongoDB"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
     },
     {
       "slug": "immich",
@@ -2333,6 +2413,20 @@
       ]
     },
     {
+      "slug": "loki",
+      "title": "Grafana Loki",
+      "category": "observability",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "lychee",
       "title": "Lychee",
       "category": "photo-backup-gallery",
@@ -2836,6 +2930,20 @@
       "is_docker_ready": true,
       "difficulty": 2,
       "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "oauth2-proxy",
+      "title": "OAuth2 Proxy",
+      "category": "sso-identity",
+      "license": "MIT",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 128,
       "alternative_to_saas": []
     },
     {
@@ -3511,6 +3619,21 @@
       ]
     },
     {
+      "slug": "prefect",
+      "title": "Prefect",
+      "category": "workflow-automation",
+      "license": "Apache-2.0",
+      "stack": [
+        "Python",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "privatebin",
       "title": "PrivateBin",
       "category": "pastebin",
@@ -4111,6 +4234,21 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "supertokens",
+      "title": "SuperTokens",
+      "category": "sso-identity",
+      "license": "Apache-2.0",
+      "stack": [
+        "Java",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "swetrix",
       "title": "Swetrix",
       "category": "web-analytics",
@@ -4232,6 +4370,21 @@
       "alternative_to_saas": [
         "1password"
       ]
+    },
+    {
+      "slug": "temporal",
+      "title": "Temporal",
+      "category": "workflow-automation",
+      "license": "MIT",
+      "stack": [
+        "Go",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 4,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
     },
     {
       "slug": "tinyauth",
