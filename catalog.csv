@@ -5,24 +5,38 @@ actual-budget,Actual Budget,personal-finance,MIT,JavaScript|Node.js,true,true,1,
 adguard-home,AdGuard Home,network-wide-ad-blocking,GPL-3.0,Go,true,true,2,512,
 adminer,Adminer,database-admin,Apache-2.0 OR GPL-2.0,PHP,true,true,1,128,
 affine,AFFiNE,notes,MIT (client) + AFFiNE EE License (server; Community Edition parts MPL-2.0),TypeScript|Node.js|Rust|PostgreSQL|Redis,true,true,2,2048,notion
+agent-zero,Agent Zero,ai-agent-platforms,MIT,Python|Flask|Docker,true,true,2,2048,
 agentarea,AgentArea,ai-agent-platforms,Apache-2.0,Python|Next.js|Go|Temporal,true,true,4,4096,
 akaunting,Akaunting,invoicing,BSL-1.1,PHP|Laravel|Vue.js|MariaDB,true,true,2,512,quickbooks
+answer,Apache Answer,forum,Apache-2.0,Go|React,true,true,1,256,
 anythingllm,AnythingLLM,ai-chat-interfaces,MIT,JavaScript|Node.js|React,true,true,2,2048,chatgpt
 appflowy,AppFlowy,notes,AGPL-3.0 (client apps) + AppFlowy Self-Hosted Commercial License (server; free tier),Flutter|Rust|PostgreSQL,true,true,4,2048,notion
 apprise-api,Apprise API,push-notifications,MIT,Python|Django,true,true,1,256,
 appsmith,Appsmith,low-code-internal-tools,Apache-2.0 (Community Edition image; the Commercial edition is a separate image),Java|TypeScript|MongoDB|Redis,true,true,2,8192,retool
 appwrite,Appwrite,backend-baas,BSD-3-Clause,PHP|MongoDB,true,true,3,4096,firebase
+arcane,Arcane,container-management,BSD-3-Clause,Go|Svelte|SQLite,true,true,2,256,
+archivebox,ArchiveBox,read-it-later,MIT,Python|SQLite|Chrome|yt-dlp,true,true,2,2048,pocket
 audiobookshelf,Audiobookshelf,media-server,GPL-3.0,JavaScript|Node.js,true,true,2,512,audible
 authelia,Authelia,sso-identity,Apache-2.0,Go,true,true,3,256,
 authentik,authentik,sso-identity,MIT,Python|Go|TypeScript,true,true,3,2048,auth0|okta
+backrest,Backrest,backup,GPL-3.0,Go|restic,true,true,2,128,
 bagisto,Bagisto,e-commerce,MIT,PHP|Vue.js|MySQL,true,true,1,1024,shopify
+bar-assistant,Bar Assistant,recipes,MIT,PHP|Laravel|Vue|SQLite|Meilisearch,true,true,2,1024,
+bark-server,Bark Server,push-notifications,MIT,Go,true,true,1,64,
 baserow,Baserow,no-code-database,MIT,Python|Django|Vue,true,true,2,2048,airtable
 bazarr,Bazarr,media-automation,GPL-3.0,Python|React,true,true,2,256,
+bentopdf,BentoPDF,pdf-tools,AGPL-3.0,TypeScript,true,true,1,64,
 beszel,Beszel,monitoring,MIT,Go|PocketBase|SQLite,true,true,2,256,datadog
+billionmail,BillionMail,newsletter,AGPL-3.0,Go|Vue|PostgreSQL|Redis|Postfix|Dovecot,true,true,3,2048,mailchimp
 bitwarden,Bitwarden,password-manager,AGPL-3.0,C#|SQL Server,true,true,3,2048,1password
+blocky,Blocky,network-wide-ad-blocking,Apache-2.0,Go,true,true,2,256,
+bolt-diy,bolt.diy,ai-coding-agents,MIT,TypeScript|React|Vite,true,true,2,4096,
+booklore,BookLore,e-books-comics,AGPL-3.0,Java|Spring Boot|Angular|MariaDB,true,true,2,1024,
 bookstack,BookStack,wiki-docs,MIT,PHP|Laravel,true,false,2,512,notion|confluence
+borgmatic,borgmatic,backup,GPL-3.0,Python|BorgBackup,true,true,3,256,
 budibase,Budibase,low-code-internal-tools,"GPL-3.0 overall; packages/pro is BSL-1.1, app-runtime packages MPL-2.0",TypeScript|Svelte|CouchDB|Redis,true,true,2,6144,retool
 bugsink,Bugsink,error-tracking,PolyForm Shield 1.0.0,Python|Django,true,true,1,256,sentry
+bunkerweb,BunkerWeb,reverse-proxy,AGPL-3.0,Python|NGINX|Lua,true,true,3,8192,
 caddy,Caddy,reverse-proxy,Apache-2.0,Go,true,true,2,256,
 cal-diy,Cal.diy,scheduling,MIT,TypeScript|Next.js|PostgreSQL|Prisma,true,false,3,2048,
 calibre-web,Calibre-Web,e-books-comics,GPL-3.0,Python|Flask,true,true,2,512,
@@ -32,19 +46,34 @@ casdoor,Casdoor,sso-identity,Apache-2.0,Go|React,true,true,2,512,auth0
 changedetection-io,changedetection.io,monitoring,Apache-2.0,Python|Flask,true,true,1,512,
 chatwoot,Chatwoot,helpdesk,MIT core with proprietary enterprise modules,Ruby|Rails|Vue|PostgreSQL,true,true,3,4096,zendesk|intercom
 checkmate,Checkmate,monitoring,AGPL-3.0,TypeScript|Node.js|MongoDB,true,true,2,2048,uptimerobot
+chhoto-url,Chhoto URL,url-shortener,MIT,Rust|SQLite,true,true,1,32,
+chroma,Chroma,vector-database,Apache-2.0,Rust|Python,true,true,2,2048,pinecone
 cloudbeaver,CloudBeaver,database-admin,Apache-2.0,Java|TypeScript|React,true,true,1,4096,
 code-server,code-server,developer-tools,MIT,TypeScript|Node.js,true,true,1,1024,
+coder,Coder,developer-tools,AGPL-3.0,Go|Terraform|React|PostgreSQL,true,true,3,4096,
 collabora,Collabora Online,office-suite,MPL-2.0,C++|JavaScript,true,true,2,2048,microsoft-365|google-workspace
 commafeed,CommaFeed,rss-reader,Apache-2.0,Java|Quarkus|H2,true,true,1,256,feedly
+concourse,Concourse,ci-cd,Apache-2.0,Go|Elm|PostgreSQL,true,true,3,2048,
+convertx,ConvertX,pdf-tools,AGPL-3.0,TypeScript|Bun|SQLite,true,true,1,1024,
 coolify,Coolify,platform-as-a-service,Apache-2.0,PHP|Laravel,true,true,2,2048,heroku|vercel
 copyparty,copyparty,file-sharing,MIT,Python,true,true,1,256,
 crowdsec,CrowdSec,security,MIT,Go|SQLite,true,true,3,256,
+cyberchef,CyberChef,developer-tools,Apache-2.0,JavaScript|nginx,true,true,1,64,
 dashy,Dashy,dashboards,MIT,Vue|Node.js,true,true,1,256,
+dataease,DataEase,business-intelligence,GPL-3.0 with additional conditions (the frontend logo and copyright must stay),Java|Spring Boot|Vue|MySQL,true,true,3,4096,
+davis,Davis,scheduling,MIT,PHP|Symfony|MariaDB,true,true,2,512,
+dbgate,DbGate,database-admin,GPL-3.0,Node.js|Svelte|TypeScript,true,true,2,512,
+defectdojo,DefectDojo,security,BSD-3-Clause,Python|Django|Celery|PostgreSQL|Valkey,true,true,3,4096,
+dependency-track,Dependency-Track,security,Apache-2.0,Java|PostgreSQL,true,true,3,4096,
 dify,Dify,ai-agent-platforms,Dify Open Source License (modified Apache-2.0),Python|Flask|Next.js|TypeScript,true,true,2,4096,
 directus,Directus,backend-baas,MSCL-1.0,Node.js|TypeScript,true,true,2,512,firebase
 discourse,Discourse,forum,GPL-2.0-or-later,Ruby on Rails|Ember.js|PostgreSQL|Redis,true,true,2,1024,
 distribution,Distribution (Docker Registry),container-registry,Apache-2.0,Go,true,true,1,128,
+dittofeed,Dittofeed,newsletter,MIT (closed-source dittofeed-ee edition sold separately),TypeScript|PostgreSQL|ClickHouse|Temporal,true,true,3,4096,
 docker-mailserver,docker-mailserver,mail-server,MIT,Shell,true,true,4,512,google-workspace
+docker-registry-ui,Docker Registry UI,container-registry,AGPL-3.0,Riot|JavaScript|nginx,true,true,1,64,
+dockge,Dockge,container-management,MIT,TypeScript|Vue|Node.js,true,true,1,256,
+docling-serve,Docling Serve,pdf-tools,MIT,Python|PyTorch,true,true,2,4096,
 docmost,Docmost,wiki-docs,AGPL-3.0,TypeScript|Node.js|PostgreSQL|Redis,true,true,2,1024,notion|confluence
 documenso,Documenso,e-signature,AGPL-3.0,TypeScript|React Router|Hono,true,true,3,2048,docusign
 docuseal,DocuSeal,e-signature,AGPL-3.0,Ruby|Rails|Vue,true,true,1,1024,docusign
@@ -52,9 +81,12 @@ dokku,Dokku,platform-as-a-service,MIT,Shell|Herokuish,true,true,2,1024,heroku|ve
 dokploy,Dokploy,platform-as-a-service,Apache-2.0,TypeScript|Next.js,true,true,2,2048,heroku|vercel
 dokuwiki,DokuWiki,wiki-docs,GPL-2.0,PHP|Apache,true,true,1,256,confluence
 dolibarr,Dolibarr,erp,GPL-3.0-or-later,PHP|Apache|MariaDB,true,true,2,1024,quickbooks
+domoticz,Domoticz,home-automation,GPL-3.0,C++|SQLite,true,true,1,256,
 donetick,Donetick,project-management,AGPL-3.0,Go|React|SQLite,true,true,1,256,todoist
 dozzle,Dozzle,container-management,MIT,Go|Vue,true,true,1,128,
 drawio,draw.io,whiteboard,Apache-2.0,Java|JavaScript,true,true,1,512,
+drawpile,Drawpile Server,whiteboard,GPL-3.0,C++|Qt,true,true,1,128,
+drone,Drone,ci-cd,Drone Non-Commercial License (Enterprise Edition),Go|SQLite,true,true,2,256,
 drupal,Drupal,cms-blogging,GPL-2.0-or-later,PHP|Symfony,true,true,2,512,
 duplicati,Duplicati,backup,MIT,C#|.NET|SQLite,true,true,1,512,
 easy-appointments,Easy!Appointments,scheduling,GPL-3.0,PHP|CodeIgniter|MySQL,true,true,2,1024,
@@ -62,17 +94,32 @@ emby,Emby,media-server,Proprietary,Proprietary core|.NET,true,true,3,2048,
 endurain,Endurain,fitness,AGPL-3.0,Python|Vue|PostgreSQL,true,true,2,512,
 ente,Ente,photo-backup-gallery,AGPL-3.0,Go|PostgreSQL,true,true,3,1024,google-photos
 erpnext,ERPNext,erp,GPL-3.0,Python|Frappe Framework|MariaDB|Redis,true,true,4,4096,quickbooks
+errbit,Errbit,error-tracking,MIT,Ruby on Rails|MongoDB,true,true,2,512,sentry
 esphome,ESPHome,home-automation,MIT (Python) + GPL-3.0 (C++ runtime),Python|C++,true,true,2,512,
 espocrm,EspoCRM,crm,AGPL-3.0,PHP|JavaScript,true,true,2,1024,salesforce|hubspot
+ethercalc,EtherCalc,office-suite,CC0-1.0 (legacy SocialCalc files CPAL-1.0 / Artistic-2.0),TypeScript|Bun|workerd|SQLite,true,true,1,256,google-workspace|microsoft-365
+etherpad,Etherpad,office-suite,Apache-2.0,TypeScript|Node.js|PostgreSQL,true,true,2,512,google-workspace
+evcc,evcc,home-automation,MIT,Go|Vue|SQLite,true,true,2,256,
+evershop,EverShop,e-commerce,GPL-3.0,Node.js|TypeScript|React|GraphQL|PostgreSQL,true,true,2,2048,shopify
 excalidraw,Excalidraw,whiteboard,MIT,TypeScript|React,true,true,1,128,
+ezbookkeeping,ezBookkeeping,personal-finance,MIT,Go|Vue|SQLite,true,true,1,128,ynab
+faraday,Faraday,security,GPL-3.0,Python|PostgreSQL|Redis|Celery,true,true,3,4096,
 filebrowser-quantum,FileBrowser Quantum,file-sync-storage,Apache-2.0,Go|Vue,true,true,1,512,dropbox
 firefly-iii,Firefly III,personal-finance,AGPL-3.0,PHP|Laravel,true,true,3,512,ynab
+fireshare,Fireshare,video-platform,GPL-3.0,Python|React|FFmpeg,true,true,2,512,
 flarum,Flarum,forum,MIT,PHP|Mithril.js|MySQL,true,false,3,512,
+flowise,Flowise,ai-agent-platforms,Apache-2.0 core with commercially licensed enterprise modules,TypeScript|Node.js|React,true,true,2,1024,
 forgejo,Forgejo,code-hosting,GPL-3.0-or-later,Go,true,true,2,512,github
 formbricks,Formbricks,forms-surveys,AGPL-3.0,TypeScript|Next.js|PostgreSQL,true,true,3,4096,
 frappe-crm,Frappe CRM,crm,AGPL-3.0,Python|Frappe Framework|Vue.js,true,true,4,2048,salesforce|hubspot
 freescout,FreeScout,helpdesk,AGPL-3.0,PHP|Laravel|MySQL,true,false,2,1024,zendesk|intercom
 freshrss,FreshRSS,rss-reader,AGPL-3.0,PHP,true,true,2,256,feedly
+friendica,Friendica,social-network-fediverse,AGPL-3.0,PHP|Apache|MariaDB,true,true,2,1024,
+frigate,Frigate,home-automation,MIT,Python|TypeScript,true,true,3,4096,
+fusion,Fusion,rss-reader,MIT,Go|React|SQLite,true,true,1,64,feedly
+gamevault,GameVault,game-library,"CC-BY-NC-SA-4.0 (source-available, non-commercial)",TypeScript|NestJS|PostgreSQL,true,true,2,2048,
+gameyfin,Gameyfin,game-library,AGPL-3.0,Kotlin|Spring Boot|React|H2,true,true,2,1024,
+gaseous,Gaseous Server,game-library,AGPL-3.0,C#|.NET|MariaDB,true,true,2,1024,
 gatus,Gatus,monitoring,Apache-2.0,Go,true,true,2,256,uptimerobot
 ghost,Ghost,cms-blogging,MIT,Node.js|MySQL,true,true,2,1024,
 ghostfolio,Ghostfolio,personal-finance,AGPL-3.0,TypeScript|NestJS|Angular|PostgreSQL|Redis,true,true,2,1024,
@@ -82,12 +129,18 @@ gitlab,GitLab CE,code-hosting,MIT,Ruby|Go|PostgreSQL,true,true,4,16384,github
 glance,Glance,dashboards,AGPL-3.0,Go,true,true,1,128,
 glances,Glances,monitoring,LGPL-3.0,Python,true,true,1,256,
 glitchtip,GlitchTip,error-tracking,MIT,Python|Django|Angular,true,true,3,512,sentry
+glpi,GLPI,helpdesk,GPL-3.0,PHP|MySQL,true,true,2,1024,zendesk
 goalert,GoAlert,monitoring,Apache-2.0,Go|TypeScript|PostgreSQL,true,true,2,512,
 goatcounter,GoatCounter,web-analytics,EUPL-1.2,Go|SQLite,true,true,1,256,google-analytics
+gocd,GoCD,ci-cd,Apache-2.0,Java|TypeScript,true,true,3,1024,
 gogs,Gogs,code-hosting,MIT,Go,true,true,2,512,github
+gokapi,Gokapi,file-sharing,AGPL-3.0,Go|SQLite,true,true,1,128,
+goose,goose,ai-coding-agents,Apache-2.0,Rust,true,true,2,256,
+gotenberg,Gotenberg,pdf-tools,MIT,Go|Chromium|LibreOffice,true,true,2,512,
 gotify,Gotify,push-notifications,MIT,Go,true,true,2,256,
 gotosocial,GoToSocial,social-network-fediverse,AGPL-3.0,Go|SQLite|PostgreSQL,true,true,2,1024,
 grafana,Grafana,observability,AGPL-3.0,Go|TypeScript,true,true,2,1024,datadog
+grav,Grav,cms-blogging,MIT,PHP|Markdown|Twig,true,true,1,256,
 graylog,Graylog,observability,SSPL-1.0,Java|MongoDB|OpenSearch,true,true,5,8192,splunk
 grist,Grist,no-code-database,Apache-2.0,TypeScript|Node.js|Python,true,true,1,1024,airtable
 grocy,Grocy,inventory,MIT,PHP|Slim|SQLite,true,false,1,256,
@@ -96,18 +149,23 @@ harbor,Harbor,container-registry,Apache-2.0,Go|TypeScript|PostgreSQL|Redis|Nginx
 headscale,Headscale,vpn-mesh-networking,BSD-3-Clause,Go,true,true,3,256,tailscale
 healthchecks,Healthchecks,monitoring,BSD-3-Clause,Python|Django|PostgreSQL,true,true,3,1024,uptimerobot
 hedgedoc,HedgeDoc,notes,AGPL-3.0,Node.js|TypeScript|PostgreSQL,true,true,2,512,
+heimdall,Heimdall,dashboards,MIT,PHP|Laravel|SQLite,true,true,1,256,
 hertzbeat,Apache HertzBeat,monitoring,Apache-2.0,Java|TypeScript|H2,true,true,1,2048,
 heyform,HeyForm,forms-surveys,AGPL-3.0,TypeScript|NestJS|React|MongoDB,true,true,2,1024,
 homarr,Homarr,dashboards,Apache-2.0,TypeScript|Next.js,true,true,1,500,
 home-assistant,Home Assistant,home-automation,Apache-2.0,Python,true,true,3,2048,
 homebox,Homebox,inventory,AGPL-3.0,Go|Vue|Nuxt|SQLite,true,true,1,256,
 homepage,Homepage,dashboards,GPL-3.0,JavaScript|Next.js,true,true,1,256,
+homer,Homer,dashboards,Apache-2.0,Vue|JavaScript,true,true,1,64,
 hoppscotch,Hoppscotch,developer-tools,MIT,TypeScript|Vue|NestJS|PostgreSQL,true,true,3,2048,
 huginn,Huginn,workflow-automation,MIT,Ruby|Rails|MySQL,true,true,2,1024,zapier
 huly,Huly,project-management,EPL-2.0,TypeScript|Svelte|CockroachDB|Redpanda|Elasticsearch,true,true,4,8192,linear|jira
 hyperdx,HyperDX (ClickStack),observability,MIT,TypeScript|ClickHouse|MongoDB,true,true,2,2048,
+idempiere,iDempiere,erp,GPL-2.0,Java|OSGi|ZK|PostgreSQL,true,true,3,2048,quickbooks
 immich,Immich,photo-backup-gallery,AGPL-3.0,TypeScript|Node.js,true,true,3,6144,google-photos
 infisical,Infisical,secrets-management,MIT core with proprietary enterprise modules,TypeScript|Node.js|PostgreSQL|Redis,true,true,2,4096,
+inventree,InvenTree,inventory,MIT,Python|Django|React|PostgreSQL,true,true,3,1024,
+invidious,Invidious,video-platform,AGPL-3.0,Crystal|PostgreSQL|Deno,true,true,3,2048,
 invoiceninja,Invoice Ninja,invoicing,Elastic-2.0,PHP|Laravel|MySQL|Redis,true,true,2,2048,quickbooks
 invoiceshelf,InvoiceShelf,invoicing,AGPL-3.0,PHP|Laravel|Vue|SQLite,true,true,2,512,quickbooks
 it-tools,IT Tools,developer-tools,GPL-3.0,TypeScript|Vue,true,true,1,64,
@@ -126,39 +184,56 @@ keila,Keila,newsletter,AGPL-3.0,Elixir|Phoenix|PostgreSQL,true,true,2,512,mailch
 kener,Kener,monitoring,MIT,TypeScript|Svelte|Redis|SQLite,true,true,1,512,uptimerobot
 kestra,Kestra,workflow-automation,Apache-2.0 core; Enterprise Edition is a separate image,Java|Vue|PostgreSQL,true,true,3,4096,
 keycloak,Keycloak,sso-identity,Apache-2.0,Java|Quarkus,true,true,4,1024,auth0|okta
+killbill,Kill Bill,invoicing,Apache-2.0,Java|Ruby|MariaDB,true,true,3,4096,
 kimai,Kimai,time-tracking,AGPL-3.0,PHP|Symfony|MySQL,true,true,2,1024,
+kitchenowl,KitchenOwl,recipes,AGPL-3.0,Python|Flutter|SQLite,true,true,1,256,
+koel,Koel,media-server,MIT,PHP|Laravel|Vue|PostgreSQL,true,true,2,512,spotify
 komga,Komga,e-books-comics,MIT,Kotlin|Spring Boot|Vue,true,true,1,1024,
 komodo,Komodo,container-management,GPL-3.0,Rust|TypeScript,true,true,2,1024,
 kopia,Kopia,backup,Apache-2.0,Go,true,true,2,512,
 krayin,Krayin CRM,crm,MIT,PHP|Laravel|Vue.js,true,true,3,3072,
 kutt,Kutt,url-shortener,MIT,Node.js|SQLite,true,true,1,256,
+lago,Lago,invoicing,AGPL-3.0,Ruby on Rails|React|PostgreSQL|Redis,true,true,3,2048,
 langflow,Langflow,ai-agent-platforms,MIT,Python|FastAPI|React|TypeScript,true,true,2,2048,
 langfuse,Langfuse,observability,MIT core with proprietary enterprise modules,TypeScript|Next.js|PostgreSQL|ClickHouse|Redis,true,true,3,4096,
 leantime,Leantime,project-management,AGPL-3.0,PHP|JavaScript|MySQL,true,true,2,1024,trello|asana
 lemmy,Lemmy,social-network-fediverse,AGPL-3.0,Rust|TypeScript|PostgreSQL,true,true,3,1024,
+librebooking,LibreBooking,scheduling,GPL-3.0,PHP|MySQL,true,true,3,512,
 librechat,LibreChat,ai-chat-interfaces,MIT,TypeScript|React|Node.js|MongoDB,true,true,3,2048,chatgpt
+libredesk,Libredesk,helpdesk,AGPL-3.0,Go|Vue|PostgreSQL|Redis,true,true,2,512,zendesk|intercom
+libresign,LibreSign,e-signature,AGPL-3.0,PHP|Vue|Nextcloud|PostgreSQL,true,true,3,1024,docusign
 librespeed,LibreSpeed,monitoring,LGPL-3.0,JavaScript|PHP,true,true,1,128,
 lidarr,Lidarr,media-automation,GPL-3.0,C#|.NET|React,true,true,2,512,
+lightdash,Lightdash,business-intelligence,MIT core with proprietary enterprise modules,TypeScript|Node.js|React|PostgreSQL,true,true,3,4096,
 limesurvey,LimeSurvey,forms-surveys,GPL-2.0-or-later,PHP|Yii|MariaDB,true,true,2,1024,
+linkace,LinkAce,bookmarks,GPL-3.0,PHP|Laravel|MariaDB,true,true,2,1024,
+linkbreeze,LinkBreeze,link-in-bio,MIT,TypeScript|Next.js|SQLite,true,true,1,256,
 linkding,linkding,bookmarks,MIT,Python|Django,true,true,1,256,pocket
 linkstack,LinkStack,link-in-bio,AGPL-3.0,PHP|Laravel,true,true,1,256,
 linkwarden,Linkwarden,bookmarks,AGPL-3.0,TypeScript|Next.js,true,true,2,4096,pocket
 listmonk,listmonk,newsletter,AGPL-3.0,Go|Vue|PostgreSQL,true,true,2,512,mailchimp
 litellm,LiteLLM,ai-chat-interfaces,MIT core with proprietary enterprise modules,Python|FastAPI|PostgreSQL,true,true,2,1024,
+livekit,LiveKit,video-conferencing,Apache-2.0,Go|WebRTC|Pion,true,true,3,512,
 lldap,LLDAP,sso-identity,GPL-3.0,Rust|SQLite,true,true,1,128,
 lobehub,LobeHub,ai-chat-interfaces,LobeHub Community License,TypeScript|Next.js|PostgreSQL,true,true,2,2048,chatgpt
 localai,LocalAI,ai-chat-interfaces,MIT,Go,true,true,2,4096,chatgpt|lm-studio
 logto,Logto,sso-identity,MPL-2.0,TypeScript|Node.js|PostgreSQL,true,true,2,8192,auth0
 loki,Grafana Loki,observability,AGPL-3.0,Go,true,true,2,512,
+lowcoder,Lowcoder,low-code-internal-tools,AGPL-3.0,Java|TypeScript|MongoDB|Redis,true,true,3,2048,retool
 lychee,Lychee,photo-backup-gallery,MIT,PHP|Laravel|Vue,true,true,2,1024,
 mailcow,Mailcow,mail-server,GPL-3.0,PHP|Shell,true,true,4,6144,google-workspace|microsoft-365
+mailpit,Mailpit,developer-tools,MIT,Go|Vue|SQLite,true,true,1,128,
 mailu,Mailu,mail-server,MIT,Python|Shell,true,true,4,1024,google-workspace
+manticore,Manticore Search,search-engine,GPL-3.0-or-later,C++,true,true,2,512,
 mastodon,Mastodon,social-network-fediverse,AGPL-3.0,Ruby|Rails|Node.js|PostgreSQL|Redis,true,true,3,2048,
 mathesar,Mathesar,no-code-database,GPL-3.0,Python|Django|Svelte,true,true,2,1024,airtable
 matomo,Matomo,web-analytics,GPL-3.0-or-later,PHP|MariaDB,true,true,3,2048,google-analytics
 mattermost,Mattermost,team-chat,AGPL-3.0,Go|React|PostgreSQL,true,true,3,2048,slack|discord
 mautic,Mautic,newsletter,GPL-3.0-or-later,PHP|Symfony|MySQL,true,true,3,2048,mailchimp|hubspot
+maxkb,MaxKB,ai-agent-platforms,GPL-3.0,Python|Django|Vue.js|PostgreSQL,true,true,1,8192,
+mayan-edms,Mayan EDMS,documents,GPL-2.0,Python|Django|PostgreSQL,true,true,3,4096,
 mealie,Mealie,recipes,AGPL-3.0,Python|Vue,true,true,2,1024,
+mediacms,MediaCMS,video-platform,AGPL-3.0,Python|React|PostgreSQL|Redis,true,true,2,4096,
 mediawiki,MediaWiki,wiki-docs,GPL-2.0-or-later,PHP|MariaDB,true,false,3,512,confluence
 medusa,Medusa,e-commerce,MIT core with proprietary enterprise modules,TypeScript|Node.js|PostgreSQL|React,true,false,3,2048,shopify
 meilisearch,Meilisearch,search-engine,MIT,Rust,true,true,2,1024,algolia
@@ -168,51 +243,76 @@ metube,MeTube,media-automation,AGPL-3.0,Python|Angular,true,true,1,256,
 microbin,MicroBin,pastebin,BSD-3-Clause,Rust,true,true,1,64,
 milvus,Milvus,vector-database,Apache-2.0,Go|C++|etcd|MinIO,true,true,3,8192,pinecone
 miniflux,Miniflux,rss-reader,Apache-2.0,Go|PostgreSQL,true,true,2,256,feedly
+mirotalk,MiroTalk P2P,video-conferencing,AGPL-3.0 (paid one-time licences available for closed-source or rebranded use),Node.js|WebRTC|Socket.IO,true,true,2,512,
+misskey,Misskey,social-network-fediverse,AGPL-3.0,TypeScript|Node.js|Vue|PostgreSQL|Redis,true,true,3,2048,
 monica,Monica,crm,AGPL-3.0,PHP|Laravel|Vue.js,true,true,2,1024,
 mosquitto,Eclipse Mosquitto,home-automation,EPL-2.0 OR BSD-3-Clause,C,true,true,2,64,
+mybb,MyBB,forum,LGPL-3.0,PHP|PostgreSQL,true,true,2,512,
 n8n,n8n,workflow-automation,Sustainable Use License,TypeScript|Node.js,true,true,3,1024,zapier
 navidrome,Navidrome,media-server,GPL-3.0,Go,true,true,2,256,spotify
 netbird,NetBird,vpn-mesh-networking,BSD-3-Clause,Go,true,true,4,2048,tailscale
+netbox,NetBox,inventory,Apache-2.0,Python|Django|PostgreSQL|Valkey,true,true,2,2048,
 netdata,Netdata,observability,GPL-3.0,C,true,true,1,256,datadog
 nextcloud,Nextcloud,file-sync-storage,AGPL-3.0,PHP|JavaScript,true,true,3,1024,dropbox
+nextcloud-talk,Nextcloud Talk,video-conferencing,AGPL-3.0,PHP|Vue|Nextcloud|WebRTC|PostgreSQL,true,true,3,1024,
+nexus-repository,Nexus Repository,container-registry,Proprietary Community Edition terms (EPL-1.0 open core without Docker support),Java|H2,true,true,3,4096,
 nginx-proxy-manager,Nginx Proxy Manager,reverse-proxy,MIT,Node.js|Nginx,true,true,1,512,
+nginx-ui,Nginx UI,reverse-proxy,AGPL-3.0,Go|Vue|Nginx,true,true,2,256,
 nhost,Nhost,backend-baas,MIT,PostgreSQL|Hasura,true,true,4,2048,firebase
 nocobase,NocoBase,low-code-internal-tools,"Apache-2.0 plus NocoBase supplementary terms (branding kept, no competing SaaS)",TypeScript|Node.js|PostgreSQL,true,true,2,2048,airtable|retool
 nocodb,NocoDB,no-code-database,Sustainable Use License,TypeScript|NestJS|Vue,true,true,2,2048,airtable
 node-red,Node-RED,workflow-automation,Apache-2.0,Node.js,true,true,2,256,zapier
 nodebb,NodeBB,forum,GPL-3.0,Node.js|MongoDB,true,true,2,512,discord
+nopcommerce,nopCommerce,e-commerce,nopCommerce Public License 4.0,C#|ASP.NET Core|PostgreSQL,true,true,3,2048,shopify
+norish,Norish,recipes,AGPL-3.0,TypeScript|Next.js|PostgreSQL|Valkey,true,true,2,1024,
+novu,Novu,push-notifications,"MIT, except enterprise folders under a commercial licence",TypeScript|Node.js|MongoDB|Redis,true,true,3,3072,
 ntfy,ntfy,push-notifications,Apache-2.0,Go,true,true,2,256,
 oauth2-proxy,OAuth2 Proxy,sso-identity,MIT,Go,true,true,2,128,
 odoo,Odoo,erp,LGPL-3.0,Python|PostgreSQL|JavaScript,true,true,3,2048,salesforce|hubspot|shopify
+ofbiz,Apache OFBiz,erp,Apache-2.0,Java|Tomcat|Apache Derby,true,true,3,2048,quickbooks
 ollama,Ollama,ai-chat-interfaces,MIT,Go|C++,true,true,1,8192,chatgpt|lm-studio
+once-campfire,Campfire,team-chat,MIT,Ruby on Rails|SQLite|Redis,true,true,1,512,slack
 onedev,OneDev,code-hosting,MIT,Java,true,true,2,2048,github
+onetimesecret,Onetime Secret,secrets-management,MIT,Ruby|Valkey|TypeScript,true,true,2,2048,
 onlyoffice,ONLYOFFICE Docs,office-suite,AGPL-3.0,JavaScript|C++,true,true,2,4096,microsoft-365|google-workspace
 open-webui,Open WebUI,ai-chat-interfaces,Open WebUI License (modified BSD-3-Clause with a branding clause),Python|Svelte|TypeScript,true,true,2,2048,chatgpt
 openbao,OpenBao,secrets-management,MPL-2.0,Go,true,true,3,256,
 opencloud,OpenCloud,file-sync-storage,Apache-2.0,Go,true,true,3,512,dropbox
+opencode,OpenCode,ai-coding-agents,MIT,TypeScript,true,true,2,1024,
 opengist,Opengist,pastebin,AGPL-3.0,Go|Git,true,true,1,256,
 openhab,openHAB,home-automation,EPL-2.0,Java|OSGi,true,true,2,1024,
 openhands,OpenHands,ai-coding-agents,MIT,TypeScript|React|Python,true,false,3,4096,
+openmeetings,Apache OpenMeetings,video-conferencing,Apache-2.0,Java|Wicket|Kurento|WebRTC,true,true,3,4096,
 openobserve,OpenObserve,observability,AGPL-3.0,Rust,true,true,2,512,datadog|splunk
 openpanel,OpenPanel,web-analytics,AGPL-3.0,TypeScript|Next.js|Fastify|PostgreSQL|ClickHouse|Redis,true,true,3,2048,google-analytics
 openproject,OpenProject,project-management,GPL-3.0,Ruby|TypeScript|PostgreSQL,true,true,4,4096,jira|asana|linear
 opensearch,OpenSearch,search-engine,Apache-2.0,Java|Lucene|Node.js,true,true,2,4096,algolia|splunk
 opnform,OpnForm,forms-surveys,AGPL-3.0,PHP|Laravel|Vue|Nuxt|PostgreSQL|Redis,true,true,3,2048,
 orocrm,OroCRM,crm,OSL-3.0,PHP|Symfony|PostgreSQL,true,true,4,2048,
+ourboard,OurBoard,whiteboard,MIT,TypeScript|Node.js|PostgreSQL,true,true,2,512,
 outline,Outline,wiki-docs,BSL-1.1,TypeScript|Node.js,true,true,3,1024,notion|confluence
 owncast,Owncast,video-platform,MIT,Go|TypeScript|SQLite,true,true,1,1024,twitch
 owncloud,ownCloud,file-sync-storage,Apache-2.0,Go,true,true,3,512,dropbox
+pairdrop,PairDrop,file-sharing,GPL-3.0,Node.js|JavaScript|WebRTC,true,true,1,64,
 pangolin,Pangolin,vpn-mesh-networking,AGPL-3.0,TypeScript|Go,true,true,3,1024,cloudflare-tunnel|tailscale
 paperless-ngx,Paperless-ngx,documents,GPL-3.0,Python|Django,true,true,3,2048,
 papermerge,Papermerge DMS,documents,Apache-2.0,Python|TypeScript|PostgreSQL,true,true,2,1024,
 papra,Papra,documents,AGPL-3.0,TypeScript|Node.js|SolidJS|SQLite,true,true,1,512,
+part-db,Part-DB,inventory,AGPL-3.0,PHP|Symfony|SQLite,true,true,2,256,
 passbolt,Passbolt,password-manager,AGPL-3.0,PHP|CakePHP|MariaDB,true,true,3,2048,1password
+password-pusher,Password Pusher,secrets-management,Apache-2.0,Ruby on Rails,true,true,1,512,
+pastefy,Pastefy,pastebin,MIT,Java|Vue|MariaDB,true,true,2,1024,
 payload,Payload,backend-baas,MIT,TypeScript|Next.js|React|PostgreSQL,true,true,3,2048,
+pdfding,PdfDing,pdf-tools,AGPL-3.0,Python|Django|SQLite,true,true,1,256,
 peertube,PeerTube,video-platform,AGPL-3.0,TypeScript|Node.js|PostgreSQL|Redis,true,true,3,1536,twitch
+penpot,Penpot,whiteboard,MPL-2.0,Clojure|ClojureScript|PostgreSQL|Valkey,true,true,3,4096,
 perplexica,Vane (formerly Perplexica),ai-chat-interfaces,MIT,TypeScript|Next.js|SearXNG,true,true,2,2048,chatgpt
 pgadmin,pgAdmin,database-admin,PostgreSQL,Python|Flask|React,true,true,1,512,
+pgvector,pgvector,vector-database,PostgreSQL,C|PostgreSQL,true,true,2,512,pinecone
 pgweb,pgweb,database-admin,MIT,Go,true,true,1,64,
+phase,Phase,secrets-management,MIT,Python|Django|Next.js|PostgreSQL|Redis,true,true,2,2048,
 photoprism,PhotoPrism,photo-backup-gallery,AGPL-3.0,Go|JavaScript,true,true,2,2048,google-photos
+phplist,phpList,newsletter,AGPL-3.0,PHP|MySQL,true,true,2,512,mailchimp
 phpmyadmin,phpMyAdmin,database-admin,GPL-2.0,PHP,true,true,1,256,
 pigallery2,PiGallery2,photo-backup-gallery,MIT,TypeScript|Node.js|Angular,true,true,1,1024,
 pihole,Pi-hole,network-wide-ad-blocking,EUPL-1.2,C (pihole-FTL),true,true,2,512,
@@ -225,46 +325,70 @@ pocket-id,Pocket ID,sso-identity,BSD-2-Clause,Go|SvelteKit,true,true,2,256,
 pocketbase,PocketBase,backend-baas,MIT,Go|SQLite,true,false,1,512,firebase
 portainer,Portainer CE,container-management,Zlib,Go|TypeScript,true,true,1,256,
 posthog,PostHog,web-analytics,MIT core with proprietary enterprise modules,Python|Django|TypeScript|Rust|ClickHouse|PostgreSQL|Kafka,true,true,4,16384,google-analytics
+pr-agent,PR-Agent,ai-coding-agents,MIT,Python|FastAPI,true,true,3,1024,
 prefect,Prefect,workflow-automation,Apache-2.0,Python|SQLite,true,true,2,1024,
+prestashop,PrestaShop,e-commerce,OSL-3.0,PHP|Symfony|MariaDB,true,true,2,1024,shopify
 privatebin,PrivateBin,pastebin,Zlib,PHP|JavaScript,true,true,1,128,
 prometheus,Prometheus,observability,Apache-2.0,Go,true,true,2,2048,datadog
 prowlarr,Prowlarr,media-automation,GPL-3.0,C#|.NET|React,true,true,2,256,
 psitransfer,PsiTransfer,file-sharing,BSD-2-Clause,Node.js|Vue,true,true,1,256,dropbox
 psono,Psono,password-manager,Apache-2.0,Python|Django|PostgreSQL,true,true,4,2560,1password
+qbittorrent,qBittorrent,media-automation,GPL-2.0-or-later,C++|Qt,true,true,1,256,
 qdrant,Qdrant,vector-database,Apache-2.0,Rust,true,true,2,1024,pinecone
+quickwit,Quickwit,search-engine,Apache-2.0,Rust,true,true,2,8192,
 radarr,Radarr,media-automation,GPL-3.0,C#|.NET|React,true,true,2,512,
+radicale,Radicale,scheduling,GPL-3.0,Python,true,true,2,64,
 rallly,Rallly,scheduling,AGPL-3.0,TypeScript|Next.js|PostgreSQL|Prisma,true,true,2,2048,
 readeck,Readeck,read-it-later,AGPL-3.0,Go|SQLite,true,true,1,256,pocket
+recipesage,RecipeSage,recipes,"AGPL-3.0 non-commercial (main repo); selfhost images personal, non-commercial only",TypeScript|Node.js|PostgreSQL|Valkey,true,true,2,1024,
+redash,Redash,business-intelligence,BSD-2-Clause,Python|Flask|React|PostgreSQL|Redis,true,true,3,4096,
+redmine,Redmine,project-management,GPL-2.0-or-later,Ruby|Rails|PostgreSQL,true,true,2,1024,jira
 restic,restic,backup,BSD-2-Clause,Go,true,true,2,512,
+retrom,Retrom,game-library,GPL-3.0,Rust|TypeScript|PostgreSQL,true,true,2,512,
 rocket-chat,Rocket.Chat,team-chat,MIT,Node.js|MongoDB,true,true,3,8192,slack|discord
 romm,RomM,game-library,AGPL-3.0,Python|FastAPI|Vue,true,true,2,2048,
+roundcube,Roundcube,mail-server,GPL-3.0-or-later,PHP|JavaScript,true,true,2,256,
+rsshub,RSSHub,rss-reader,AGPL-3.0,TypeScript|Node.js|Redis,true,true,2,512,
 rustdesk,RustDesk,vpn-mesh-networking,AGPL-3.0,Rust|Flutter,true,true,2,256,
+rustypaste,rustypaste,pastebin,MIT,Rust,true,true,1,64,
 rybbit,Rybbit,web-analytics,AGPL-3.0,TypeScript|ClickHouse|PostgreSQL|Redis,true,true,2,2048,google-analytics
+ryot,Ryot,fitness,GPL-3.0,Rust|PostgreSQL,true,true,2,512,
 saleor,Saleor,e-commerce,BSD-3-Clause,Python|Django|GraphQL|PostgreSQL|Celery,true,true,4,4096,shopify
+saltcorn,Saltcorn,low-code-internal-tools,MIT,Node.js|TypeScript|PostgreSQL,true,true,2,1024,airtable|retool
+screego,Screego,video-conferencing,GPL-3.0,Go|React|WebRTC|Pion,true,true,2,128,
+sdns,SDNS,network-wide-ad-blocking,MIT,Go,true,true,3,128,
 seafile,Seafile,file-sync-storage,AGPL-3.0,C|Go|Python,true,true,3,2048,dropbox
 searxng,SearXNG,search-engine,AGPL-3.0,Python|Flask,true,true,1,512,
 seerr,Seerr,media-automation,MIT,TypeScript|Node.js|Next.js,true,true,2,512,
 semaphore,Semaphore UI,ci-cd,MIT,Go|Vue,true,true,2,512,
 sentry,Sentry,error-tracking,FSL-1.1-Apache-2.0,Python|Django|Rust|ClickHouse|PostgreSQL|Kafka,true,true,4,16384,sentry
 sftpgo,SFTPGo,file-sharing,AGPL-3.0,Go,true,true,2,256,
+shaarli,Shaarli,bookmarks,Zlib,PHP|Nginx,true,true,1,256,
 shiori,Shiori,bookmarks,MIT,Go,true,true,1,256,pocket
 shlink,Shlink,url-shortener,MIT,PHP,true,true,2,256,
 signoz,SigNoz,observability,MIT,Go|TypeScript|ClickHouse,true,true,4,4096,datadog|splunk
 silverbullet,SilverBullet,notes,MIT,Rust|TypeScript|Lua,true,true,1,512,obsidian
+sim,Sim,ai-agent-platforms,Apache-2.0 core with commercially licensed enterprise modules,TypeScript|Next.js|Bun|PostgreSQL|Redis,true,true,2,4096,zapier
 siyuan,SiYuan,notes,AGPL-3.0,Go|TypeScript|SQLite,true,true,1,512,notion|obsidian
 snipe-it,Snipe-IT,inventory,AGPL-3.0,PHP|Laravel|MariaDB,true,true,2,1024,
 soft-serve,Soft Serve,code-hosting,MIT,Go,true,true,2,256,
+solidinvoice,SolidInvoice,invoicing,MIT,PHP|Symfony|SQLite,true,true,1,2048,
 solidtime,solidtime,time-tracking,AGPL-3.0,PHP|Laravel|Vue|PostgreSQL,true,true,3,1024,
 sonarr,Sonarr,media-automation,GPL-3.0,C#|.NET|React,true,true,2,512,
+sonic,Sonic,search-engine,MPL-2.0,Rust|RocksDB,true,true,2,64,
+sparkyfitness,SparkyFitness,fitness,"Source-available, non-commercial use only (commercial use needs the author's permission)",Node.js|React|PostgreSQL,true,true,2,512,
 speedtest-tracker,Speedtest Tracker,monitoring,MIT,PHP|Laravel,true,true,2,256,
+spoolman,Spoolman,inventory,MIT,Python|FastAPI|SQLite,true,true,1,256,
 stalwart,Stalwart,mail-server,AGPL-3.0,Rust,true,true,4,1024,google-workspace|microsoft-365
 step-ca,step-ca,security,Apache-2.0,Go,true,true,2,128,
 stirling-pdf,Stirling-PDF,pdf-tools,MIT core with proprietary enterprise modules,Java|Spring Boot|TypeScript,true,true,1,2048,
 strapi,Strapi,backend-baas,MIT core with proprietary enterprise modules,Node.js|TypeScript|React|PostgreSQL,true,true,3,2048,
+stump,Stump,e-books-comics,MIT,Rust|React|SQLite,true,true,1,256,
 suitecrm,SuiteCRM,crm,AGPL-3.0,PHP|MySQL,true,true,3,2048,salesforce|hubspot
 supabase,Supabase,backend-baas,Apache-2.0,PostgreSQL|TypeScript,true,true,4,4096,firebase
 superset,Apache Superset,business-intelligence,Apache-2.0,Python|Flask|TypeScript|React|PostgreSQL|Redis,true,true,4,2048,
 supertokens,SuperTokens,sso-identity,Apache-2.0,Java|PostgreSQL,true,true,3,512,
+sure,Sure,personal-finance,AGPL-3.0,Ruby on Rails|PostgreSQL|Redis,true,true,2,1024,
 swetrix,Swetrix,web-analytics,AGPL-3.0,TypeScript|Nest.js|ClickHouse|Redis,true,true,2,2048,google-analytics
 synapse,Synapse,team-chat,AGPL-3.0,Python|Rust|SQLite|PostgreSQL,true,true,2,1024,slack|discord
 syncthing,Syncthing,file-sync-storage,MPL-2.0,Go,true,true,2,256,dropbox
@@ -272,42 +396,63 @@ taiga,Taiga,project-management,MPL-2.0,Python|AngularJS|PostgreSQL,true,true,3,2
 tandoor,Tandoor Recipes,recipes,AGPL-3.0 with Commons Clause,Python|Vue,true,true,2,1024,
 teable,Teable,no-code-database,AGPL-3.0,TypeScript|NestJS|Next.js,true,true,2,4096,airtable
 teampass,TeamPass,password-manager,GPL-3.0,PHP|MariaDB,true,true,2,1024,1password
+technitium-dns,Technitium DNS Server,network-wide-ad-blocking,GPL-3.0,.NET,true,true,2,256,
 temporal,Temporal,workflow-automation,MIT,Go|PostgreSQL,true,true,4,2048,
 timetagger,TimeTagger,time-tracking,GPL-3.0,Python|SQLite,true,true,1,128,
+tinode,Tinode,team-chat,GPL-3.0,Go|PostgreSQL|React,true,true,2,512,slack
 tinyauth,Tinyauth,sso-identity,AGPL-3.0,Go,true,true,2,256,
+titra,titra,time-tracking,AGPL-3.0,JavaScript|Meteor|MongoDB,true,true,2,1024,
 tooljet,ToolJet,low-code-internal-tools,AGPL-3.0 core; server/ee and frontend/ee are submodules from separate ToolJet repos,TypeScript|NestJS|PostgreSQL|Redis,true,true,3,4096,retool
 traefik,Traefik,reverse-proxy,MIT,Go,true,true,3,256,
 traggo,Traggo,time-tracking,GPL-3.0,Go|SQLite,true,true,1,128,
 trilium,Trilium Notes,notes,AGPL-3.0,TypeScript|Node.js|SQLite,true,true,1,512,notion|obsidian
+trudesk,Trudesk,helpdesk,Apache-2.0,Node.js|MongoDB,true,true,2,2048,zendesk
+tryton,Tryton,erp,GPL-3.0-or-later,Python|PostgreSQL,true,true,2,512,quickbooks
+tt-rss,Tiny Tiny RSS,rss-reader,GPL-3.0,PHP|PostgreSQL,true,true,2,512,feedly
 tube-archivist,Tube Archivist,video-platform,GPL-3.0,Python|TypeScript|Elasticsearch|Redis,true,true,3,2048,
 tududi,tududi,project-management,MIT,TypeScript|Node.js|Express|React|SQLite,true,true,1,256,todoist
+tuwunel,Tuwunel,team-chat,Apache-2.0,Rust|RocksDB,true,true,2,512,slack|discord
 twenty,Twenty,crm,AGPL-3.0,TypeScript|NestJS|React,true,true,3,2048,salesforce|hubspot
 typesense,Typesense,search-engine,GPL-3.0,C++,true,true,2,1024,algolia
 umami,Umami,web-analytics,MIT,Next.js|PostgreSQL,true,true,2,1024,google-analytics
 uptime-kuma,Uptime Kuma,monitoring,MIT,JavaScript|Node.js,true,true,1,512,uptimerobot
+urbackup,UrBackup,backup,AGPL-3.0,C++|SQLite,true,true,2,512,
+vault,HashiCorp Vault,secrets-management,BSL-1.1,Go,true,true,3,512,
 vaultwarden,Vaultwarden,password-manager,AGPL-3.0,Rust,true,true,1,256,1password
 verdaccio,Verdaccio,developer-tools,MIT,TypeScript|Node.js,true,true,1,256,
+vespa,Vespa,vector-database,Apache-2.0,C++|Java,true,true,4,4096,pinecone
 victoriametrics,VictoriaMetrics,monitoring,Apache-2.0,Go,true,true,1,256,datadog
 vikunja,Vikunja,project-management,AGPL-3.0,Go|Vue.js|PostgreSQL,true,true,2,1024,trello|asana|todoist
 vllm,vLLM,ai-chat-interfaces,Apache-2.0,Python|CUDA,true,true,3,16384,chatgpt
 vtiger,Vtiger CRM,crm,Vtiger Public License 1.1,PHP|MySQL,true,false,2,1024,
+wakapi,Wakapi,time-tracking,MIT,Go|SQLite,true,true,1,128,
 wallabag,Wallabag,read-it-later,MIT,PHP|Symfony,true,true,2,512,pocket
+wallos,Wallos,personal-finance,GPL-3.0,PHP|SQLite,true,true,1,128,
+wanderer,wanderer,fitness,AGPL-3.0,Svelte|Go|PocketBase|Meilisearch,true,true,2,1024,
+wastebin,wastebin,pastebin,MIT,Rust|SQLite,true,true,1,64,
 wbo,WBO,whiteboard,AGPL-3.0,Node.js|JavaScript,true,true,1,128,
 weaviate,Weaviate,vector-database,BSD-3-Clause core with proprietary wl/ enterprise modules,Go,true,true,2,1024,pinecone
 wekan,WeKan,project-management,MIT,JavaScript|Meteor|FerretDB|SQLite,true,true,2,2048,trello
 wg-easy,wg-easy,vpn-mesh-networking,AGPL-3.0,TypeScript|Node.js,true,true,2,256,tailscale
+wg-portal,WireGuard Portal,vpn-mesh-networking,MIT,Go|Vue|SQLite,true,true,2,128,
 wger,wger,fitness,AGPL-3.0-or-later,Python|Django|PostgreSQL|Redis|Celery,true,true,2,1536,
+whodb,WhoDB,database-admin,Apache-2.0,Go|TypeScript|React,true,true,1,256,
 wiki-js,Wiki.js,wiki-docs,AGPL-3.0,Node.js|Vue|PostgreSQL,true,true,2,1024,notion|confluence
 windmill,Windmill,workflow-automation,AGPL-3.0,Rust|Svelte|PostgreSQL,true,true,3,4096,zapier
 woodpecker,Woodpecker CI,ci-cd,Apache-2.0,Go|Vue,true,true,2,256,
 wordpress,WordPress,cms-blogging,GPL-2.0-or-later,PHP|MySQL,true,true,1,1024,
 workout-tracker,Workout Tracker,fitness,MIT,Go|SQLite,true,true,1,128,
 writefreely,WriteFreely,social-network-fediverse,AGPL-3.0,Go|SQLite|MySQL,true,true,2,256,
+wud,What's Up Docker,container-management,MIT,TypeScript|Node.js|SQLite,true,true,1,256,
 xwiki,XWiki,wiki-docs,LGPL-2.1-or-later,Java|Tomcat|PostgreSQL,true,true,3,2048,confluence
+yarr,yarr,rss-reader,MIT,Go|SQLite,true,true,1,64,
+yopass,Yopass,secrets-management,Apache-2.0,Go|React|Memcached,true,true,1,64,
 yourls,YOURLS,url-shortener,MIT,PHP|MariaDB,true,true,2,512,
 zabbix,Zabbix,monitoring,AGPL-3.0,C|PHP|MySQL,true,true,4,4096,datadog
 zammad,Zammad,helpdesk,AGPL-3.0,Ruby|Rails|PostgreSQL|Elasticsearch,true,true,3,4096,zendesk|intercom
+zerobyte,Zerobyte,backup,AGPL-3.0,TypeScript|Bun|restic,true,true,2,512,
 zipline,Zipline,file-sharing,MIT,TypeScript|React|Fastify|PostgreSQL,true,true,2,512,
 zitadel,Zitadel,sso-identity,AGPL-3.0,Go,true,true,4,2048,auth0|okta
 zoraxy,Zoraxy,reverse-proxy,AGPL-3.0,Go,true,true,2,256,
+zot,zot,container-registry,Apache-2.0,Go,true,true,1,512,
 zulip,Zulip,team-chat,Apache-2.0,Python|Django|PostgreSQL|RabbitMQ,true,true,3,4096,slack
