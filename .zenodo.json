@@ -21,6 +21,26 @@
       "identifier": "https://selfhostatlas.com/how-we-test",
       "relation": "isDocumentedBy",
       "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://selfhostatlas.com/reports/self-hosted-install-quality-2026",
+      "relation": "isSourceOf",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://selfhostatlas.com/reports/self-hosted-install-failures-2026",
+      "relation": "isSourceOf",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://selfhostatlas.com/reports/self-hosted-app-idle-ram-2026",
+      "relation": "isSourceOf",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://selfhostatlas.com/reports/vps-cost-per-self-hosted-app-2026",
+      "relation": "isSourceOf",
+      "resource_type": "publication-report"
     }
   ]
 }

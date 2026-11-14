@@ -25,7 +25,7 @@ documented rather than observed.
 
 | Status | Fields | Meaning |
 |---|---|---|
-| **Measured** | `install_verified_os`, `install_verified_date` | A real install run happened: the app's published install snippet was executed on a cloud VM running that OS, on that date, and every step exited successfully. |
+| **Measured** | `install_verified_os`, `install_verified_date`, `arm64_verified_date` | A real install run happened: the app's published install snippet was executed on a cloud VM running that OS, on that date, and every step exited successfully. |
 | **Measured** | `measured_ram_mb`, `measured_disk_mb`, `measured_box`, `measured_on` | Observed footprint **at idle, immediately after first boot**, on the machine named in `measured_box`. Taken on a box pruned of every prior app, so the disk figure is this app's alone. **Never under load, and never a capacity recommendation.** |
 | **Documented, not measured** | `documented_min_ram_mb` | The minimum RAM the upstream project documents, or SelfHost Atlas's sizing recommendation where upstream documents none. Values sit on standard instance tiers (256/512/1024/2048…). **This is a recommendation, not an observation.** Do not cite it as measured memory usage. |
 | **Catalog metadata** | `slug`, `title`, `category`, `license`, `repo_url`, `website_url`, `is_docker_ready`, `content_updated` | Facts about the project and about our page, not measurements of a running system. |
@@ -56,6 +56,7 @@ publishing a documented value as a measured one would be a false claim.
 | `documented_min_ram_mb` | integer | no | Documented/recommended minimum RAM in MB — **see the table above** |
 | `install_verified_os` | string | yes | OS the install run happened on (e.g. `Ubuntu 26.04`). Null = not yet verified |
 | `install_verified_date` | date (`YYYY-MM-DD`) | yes | Date of that run. Null = not yet verified |
+| `arm64_verified_date` | date (`YYYY-MM-DD`) | yes | Date the same install also succeeded on an arm64 VM (GCP `t2a-standard-2`, Ubuntu 26.04). Null = not run on arm64, **not** "fails on arm64" |
 | `measured_ram_mb` | integer | yes | Observed idle container memory (sum of `docker stats` usage) 30 s after first boot, in MB. Null = not measured |
 | `measured_disk_mb` | integer | yes | Observed image + volume footprint, in MB. Null = not measured. May be null while `measured_ram_mb` is set, when a run's disk reading was not isolated |
 | `measured_box` | string | yes | The machine the figures were taken on, e.g. `GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2`. **Non-null whenever either figure is** — an unattributed measurement is not published |
@@ -126,7 +127,7 @@ Cite the copy you used: quote `schema_version` and `generated_at` from the
 JSON, because rows change between exports.
 
 > SelfHost Atlas (2026). *SelfHost Atlas install-verification dataset*
-> (schema 1.1.0, generated YYYY-MM-DD) [Data set].
+> (schema 1.2.0, generated YYYY-MM-DD) [Data set].
 > https://doi.org/10.5281/zenodo.22983606.
 > Licensed CC BY 4.0.
 
@@ -137,7 +138,7 @@ JSON, because rows change between exports.
   year         = {2026},
   doi          = {10.5281/zenodo.22983606},
   howpublished = {\url{https://doi.org/10.5281/zenodo.22983606}},
-  note         = {Schema 1.1.0, generated YYYY-MM-DD. CC BY 4.0.}
+  note         = {Schema 1.2.0, generated YYYY-MM-DD. CC BY 4.0.}
 }
 ```
 
@@ -147,7 +148,7 @@ GitHub's **Cite this repository** button (from `CITATION.cff`) gives the same in
 
 ```json
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "generated_at": "2026-10-16T12:09:55.646Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
