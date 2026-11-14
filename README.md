@@ -240,3 +240,13 @@ land in the catalog and appear in the next export.
 ## Snapshots
 
 `snapshots/<year>-Q<n>/` holds frozen copies of `install-verification.json` and `catalog.json` taken at the end of each quarter, so changes between quarters can be diffed. The files in the top-level directory are always the latest export.
+
+## Report data
+
+`reports/<slug>.csv` holds the rows behind one published report at <https://selfhostatlas.com/reports>, written by that report's generator in the same run as the report page. Reports are dated snapshots, so these files do not change when the top-level export does:
+
+- `self-hosted-app-idle-ram-2026.csv` — one row per measured app: idle RAM, idle disk, the project's documented minimum, and the measurement date.
+- `self-hosted-install-failures-2026.csv` — one row per swept app: category, first-run and final result, and for a failure its class and cause. Class and cause were read from each run's transcript; they are not columns of the main dataset.
+- `vps-cost-per-self-hosted-app-2026.csv` — one row per VPS plan: list price, RAM left after the OS reserve, how many measured apps fit, and the cost per app slot at the median and 75th-percentile idle RAM.
+
+Same license and citation as the rest of this repository.

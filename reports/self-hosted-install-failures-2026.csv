@@ -1,0 +1,112 @@
+slug,title,category,first_run,final,failure_class,cause
+activepieces,Activepieces,workflow-automation,pass,pass,,
+actual-budget,Actual Budget,personal-finance,pass,pass,,
+adguard-home,AdGuard Home,network-wide-ad-blocking,pass,pass,,
+agentarea,AgentArea,ai-agent-platforms,fail,fail,tty,bootstrap script exits 2 without a terminal after printing the install path; the next step then finds no ./agentarea
+anythingllm,AnythingLLM,ai-chat-interfaces,pass,pass,,
+audiobookshelf,Audiobookshelf,media-server,pass,pass,,
+baserow,Baserow,no-code-database,pass,pass,,
+beszel,Beszel,monitoring,fail,fail,tty,"the hub starts; the agent installer asks for the hub's SSH key, which the reader copies from the UI"
+bookstack,BookStack,wiki-docs,pass,pass,,
+bugsink,Bugsink,error-tracking,pass,pass,,
+caddy,Caddy,reverse-proxy,pass,fail,manual,"compose starts, but Caddy restart-loops until you write ./conf/Caddyfile, which the snippet leaves to you"
+caprover,CapRover,platform-as-a-service,pass,pass,,
+chatwoot,Chatwoot,helpdesk,fail,fail,manual,"`.env` and the compose file must be edited (secrets, URLs) with nano before start"
+checkmate,Checkmate,monitoring,pass,pass,,
+coolify,Coolify,platform-as-a-service,pass,pass,,
+directus,Directus,backend-baas,pass,pass,,
+docmost,Docmost,wiki-docs,pass,pass,,
+documenso,Documenso,e-signature,fail,fail,tty,`openssl req` prompts for certificate fields; adding -subj would make it unattended
+docuseal,DocuSeal,e-signature,pass,pass,,
+dokku,Dokku,platform-as-a-service,pass,pass,,
+dokuwiki,DokuWiki,wiki-docs,pass,pass,,
+emby,Emby,media-server,pass,pass,,
+ente,Ente,photo-backup-gallery,fail,fail,tty,"quickstart.sh ends by asking ""Do you want to start Ente? (y/n)"""
+erpnext,ERPNext,erp,fail,fail,domain,"easy-install.py rejects example.com addresses: ""Emails with example.com not acceptable"""
+espocrm,EspoCRM,crm,pass,pass,,
+firefly-iii,Firefly III,personal-finance,pass,pass,,
+flarum,Flarum,forum,fail,fail,manual,"assumes a root shell and a PHP host with Composer already installed, as the snippet's first comment says"
+forgejo,Forgejo,code-hosting,pass,pass,,
+frappe-crm,Frappe CRM,crm,fail,fail,foreground,`docker compose up` without -d: the stack comes up but the command never returns
+freshrss,FreshRSS,rss-reader,pass,pass,,
+gatus,Gatus,monitoring,pass,pass,,
+ghostfolio,Ghostfolio,personal-finance,pass,pass,,
+gitbucket,GitBucket,code-hosting,fail,fail,foreground,setup steps pass; `java -jar gitbucket.war` starts the server in the foreground (log shows it initializing) and never returns
+gitea,Gitea,code-hosting,pass,pass,,
+glances,Glances,monitoring,fail,fail,tty,the curses terminal UI needs a terminal by design
+glitchtip,GlitchTip,error-tracking,pass,pass,,
+goatcounter,GoatCounter,web-analytics,fail,fail,tty,the container starts; only the optional `docker exec -it` site-creation step needs a terminal
+gogs,Gogs,code-hosting,pass,pass,,
+graylog,Graylog,observability,pass,pass,,
+home-assistant,Home Assistant,home-automation,pass,pass,,
+huginn,Huginn,workflow-automation,pass,pass,,
+jellyfin,Jellyfin,media-server,pass,pass,,
+karakeep,Karakeep,bookmarks,pass,pass,,
+keeweb,KeeWeb,password-manager,fail,pass,,our box: native services from an earlier app held ports 80/443
+keycloak,Keycloak,sso-identity,fail,fail,foreground,"the dev-mode quickstart starts (""Listening on: http://0.0.0.0:8080"") but runs in the foreground by design"
+kopia,Kopia,backup,pass,pass,,
+krayin,Krayin CRM,crm,pass,pass,,
+leantime,Leantime,project-management,pass,pass,,
+librechat,LibreChat,ai-chat-interfaces,pass,pass,,
+linkding,linkding,bookmarks,pass,pass,,
+localai,LocalAI,ai-chat-interfaces,fail,fail,tty,the documented `docker run -ti` refuses to start without a terminal
+matomo,Matomo,web-analytics,pass,pass,,
+mattermost,Mattermost,team-chat,pass,pass,,
+mealie,Mealie,recipes,pass,pass,,
+mediawiki,MediaWiki,wiki-docs,pass,pass,,
+meilisearch,Meilisearch,search-engine,pass,pass,,
+miniflux,Miniflux,rss-reader,pass,pass,,
+monica,Monica,crm,pass,pass,,
+n8n,n8n,workflow-automation,pass,pass,,
+navidrome,Navidrome,media-server,pass,pass,,
+netdata,Netdata,observability,pass,pass,,
+nextcloud,Nextcloud,file-sync-storage,pass,pass,,
+nginx-proxy-manager,Nginx Proxy Manager,reverse-proxy,pass,pass,,
+nhost,Nhost,backend-baas,fail,pass,,our snippet fixed: upstream's pinned MinIO image no longer pulls
+nocodb,NocoDB,no-code-database,fail,pass,,our box: native services from an earlier app held ports 80/443
+node-red,Node-RED,workflow-automation,pass,pass,,
+odoo,Odoo,erp,pass,pass,,
+ollama,Ollama,ai-chat-interfaces,fail,fail,tty,the container starts; only the optional `docker exec -it … ollama run` chat step needs a terminal
+onedev,OneDev,code-hosting,pass,pass,,
+open-webui,Open WebUI,ai-chat-interfaces,pass,pass,,
+opencloud,OpenCloud,file-sync-storage,fail,fail,manual,"`.env` must be edited with your domains and admin password, and each domain needs a DNS record"
+openhands,OpenHands,ai-coding-agents,fail,fail,foreground,"the server starts (""Application startup complete"") but the documented command runs in the foreground and never returns; native install, so no container to measure"
+openobserve,OpenObserve,observability,pass,pass,,
+openproject,OpenProject,project-management,pass,pass,,
+orocrm,OroCRM,crm,pass,pass,,
+outline,Outline,wiki-docs,pass,fail,manual,"compose exits 0, but Outline and its Postgres exit within seconds until you supply real secrets and an auth provider (the snippet's first line says so)"
+owncloud,ownCloud,file-sync-storage,fail,fail,tty,the `ocis init` step is `docker run --rm -it` and prints the admin password to the terminal
+paperless-ngx,Paperless-ngx,documents,fail,fail,tty,"the official installer is an interactive questionnaire (URL, port, paths)"
+passbolt,Passbolt,password-manager,pass,pass,,
+pihole,Pi-hole,network-wide-ad-blocking,pass,pass,,
+plane,Plane,project-management,pass,pass,,
+plausible,Plausible,web-analytics,pass,pass,,
+plex,Plex,media-server,pass,pass,,
+pocketbase,PocketBase,backend-baas,pass,fail,foreground,"`./pocketbase serve` starts the server (""Server started"" at 19:13:03), which then exited 0 about 2.5 minutes later for a reason the log does not show. A foreground server is not an unattended pass"
+prometheus,Prometheus,observability,pass,pass,,
+psono,Psono,password-manager,fail,fail,manual,settings.yaml has to be written from the printed keys before the migrate step; without it Docker mounts a directory and the container fails
+restic,restic,backup,fail,fail,ours,"bunzip2 is not in the stock Ubuntu 26.04 cloud image; snippet now installs bzip2 first. Later steps need your own S3 credentials, which the harness doesn't have"
+rocket-chat,Rocket.Chat,team-chat,pass,pass,,
+rybbit,Rybbit,web-analytics,pass,pass,,
+seafile,Seafile,file-sync-storage,fail,fail,manual,assumes a root shell (`mkdir /opt/seafile`) and a hand-edited `.env`
+soft-serve,Soft Serve,code-hosting,pass,pass,,
+suitecrm,SuiteCRM,crm,pass,pass,,
+supabase,Supabase,backend-baas,pass,pass,,
+swetrix,Swetrix,web-analytics,fail,fail,unresolved,"the run emitted more than ~512 MB of output and crashed our harness (Node string limit); cause not established — likely a prompt loop in configure.sh, unconfirmed"
+syncthing,Syncthing,file-sync-storage,pass,pass,,
+taiga,Taiga,project-management,pass,pass,,
+tandoor,Tandoor Recipes,recipes,pass,fail,manual,"every step exits 0, but PostgreSQL crash-loops until you fill in POSTGRES_PASSWORD and SECRET_KEY in .env, as the snippet says"
+teampass,TeamPass,password-manager,pass,pass,,
+traefik,Traefik,reverse-proxy,pass,pass,,
+twenty,Twenty,crm,pass,pass,,
+typesense,Typesense,search-engine,pass,pass,,
+umami,Umami,web-analytics,pass,pass,,
+vikunja,Vikunja,project-management,pass,pass,,
+vtiger,Vtiger CRM,crm,pass,pass,,
+wallabag,Wallabag,read-it-later,pass,pass,,
+wg-easy,wg-easy,vpn-mesh-networking,pass,pass,,
+wiki-js,Wiki.js,wiki-docs,fail,pass,,our box: native services from an earlier app held ports 80/443
+windmill,Windmill,workflow-automation,pass,pass,,
+zabbix,Zabbix,monitoring,fail,fail,tty,`mysql -p` prompts for the password the reader chose in the previous step
+zammad,Zammad,helpdesk,fail,fail,resource,"first-boot migrations on 2 vCPU outlast the railsserver healthcheck, so compose exits ""unhealthy"" and leaves nginx unstarted; about 4 minutes later a second `docker compose up -d` brings the UI up (HTTP 200). Snippet now says so"
+zoraxy,Zoraxy,reverse-proxy,fail,fail,foreground,"the binary starts (""Dynamic Reverse Proxy service started"") but `./zoraxy_linux_amd64` runs in the foreground; the snippet's systemd step comes after it"

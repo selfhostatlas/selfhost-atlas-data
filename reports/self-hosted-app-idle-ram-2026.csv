@@ -1,0 +1,97 @@
+slug,title,idle_ram_mb,idle_disk_mb,documented_min_ram_mb,measured_on
+gotify,Gotify,5,201,256,2026-08-28
+keeweb,KeeWeb,7,77,256,2026-09-28
+kopia,Kopia,7,300,512,2026-09-28
+vaultwarden,Vaultwarden,7,374,256,2026-08-28
+gatus,Gatus,8,75,256,2026-09-28
+tinyauth,Tinyauth,8,62,256,2026-09-13
+pihole,Pi-hole,10,173,512,2026-09-28
+stalwart,Stalwart,10,396,1024,2026-08-28
+adguard-home,AdGuard Home,11,109,512,2026-09-28
+ntfy,ntfy,13,115,256,2026-08-28
+pocket-id,Pocket ID,14,112,256,2026-09-13
+traefik,Traefik,14,242,256,2026-09-28
+freshrss,FreshRSS,16,356,256,2026-09-28
+navidrome,Navidrome,16,333,256,2026-09-28
+syncthing,Syncthing,18,60,256,2026-09-28
+dokuwiki,DokuWiki,21,867,256,2026-09-28
+meilisearch,Meilisearch,25,459,1024,2026-09-28
+typesense,Typesense,29,1221,1024,2026-09-28
+authelia,Authelia,30,504,256,2026-08-28
+audiobookshelf,Audiobookshelf,37,447,512,2026-09-28
+prometheus,Prometheus,37,364,2048,2026-09-28
+gogs,Gogs,39,181,512,2026-09-28
+vikunja,Vikunja,45,568,1024,2026-09-28
+miniflux,Miniflux,49,715,256,2026-09-28
+wallabag,Wallabag,58,472,512,2026-09-28
+gitea,Gitea,79,373,512,2026-09-28
+nginx-proxy-manager,Nginx Proxy Manager,80,1822,512,2026-09-28
+node-red,Node-RED,87,970,256,2026-09-28
+bookstack,BookStack,93,1194,512,2026-09-28
+docker-mailserver,docker-mailserver,94,1167,512,2026-08-28
+wiki-js,Wiki.js,94,1416,1024,2026-09-28
+forgejo,Forgejo,100,383,512,2026-09-28
+netdata,Netdata,102,1263,256,2026-09-28
+photoprism,PhotoPrism,102,3240,2048,2026-08-28
+uptime-kuma,Uptime Kuma,104,692,512,2026-09-13
+suitecrm,SuiteCRM,105,2156,2048,2026-09-28
+mediawiki,MediaWiki,106,2188,512,2026-09-28
+odoo,Odoo,106,3470,2048,2026-09-28
+espocrm,EspoCRM,107,1844,1024,2026-09-28
+teampass,TeamPass,111,1205,1024,2026-09-28
+matomo,Matomo,138,1266,2048,2026-09-28
+passbolt,Passbolt,140,1234,2048,2026-09-28
+emby,Emby,146,1290,2048,2026-09-28
+linkding,linkding,148,566,256,2026-09-28
+firefly-iii,Firefly III,159,1972,512,2026-09-28
+grafana,Grafana,159,1450,1024,2026-09-13
+plex,Plex,164,516,2048,2026-09-28
+umami,Umami,165,1844,1024,2026-09-28
+jellyfin,Jellyfin,170,2362,1024,2026-09-28
+wg-easy,wg-easy,172,294,256,2026-09-28
+glitchtip,GlitchTip,181,1765,512,2026-09-28
+mealie,Mealie,202,1702,1024,2026-09-28
+bugsink,Bugsink,204,346,256,2026-09-28
+docuseal,DocuSeal,208,1466,1024,2026-09-28
+monica,Monica,209,1575,1024,2026-09-28
+nextcloud,Nextcloud,210,3377,1024,2026-09-28
+zitadel,Zitadel,235,1193,2048,2026-09-13
+openobserve,OpenObserve,238,556,512,2026-09-28
+actual-budget,Actual Budget,241,505,512,2026-09-28
+mattermost,Mattermost,256,2158,2048,2026-09-28
+checkmate,Checkmate,260,2658,2048,2026-09-28
+healthchecks,Healthchecks,274,1894,1024,2026-08-28
+directus,Directus,313,2034,512,2026-09-28
+anythingllm,AnythingLLM,323,4580,2048,2026-09-28
+home-assistant,Home Assistant,340,3326,2048,2026-09-28
+vtiger,Vtiger CRM,372,2132,1024,2026-09-28
+n8n,n8n,396,1700,1024,2026-09-28
+onedev,OneDev,417,1271,2048,2026-09-28
+ghostfolio,Ghostfolio,465,1978,1024,2026-09-28
+krayin,Krayin CRM,466,8238,3072,2026-09-29
+signoz,SigNoz,501,3426,4096,2026-08-28
+huginn,Huginn,510,4536,1024,2026-09-28
+nhost,Nhost,510,3137,2048,2026-09-29
+authentik,authentik,516,2277,2048,2026-08-28
+leantime,Leantime,529,2128,1024,2026-09-28
+orocrm,OroCRM,553,3782,2048,2026-09-28
+openproject,OpenProject,569,2688,4096,2026-09-28
+docmost,Docmost,592,1900,1024,2026-09-28
+plausible,Plausible,619,1393,2048,2026-09-28
+karakeep,Karakeep,679,2826,2048,2026-09-29
+taiga,Taiga,722,2855,2048,2026-09-28
+activepieces,Activepieces,858,2800,4096,2026-09-28
+dokploy,Dokploy,872,5063,2048,2026-08-28
+open-webui,Open WebUI,928,7269,2048,2026-09-28
+windmill,Windmill,933,14205,4096,2026-09-28
+plane,Plane,1112,4515,4096,2026-09-28
+librechat,LibreChat,1115,10109,2048,2026-09-28
+baserow,Baserow,1167,2318,2048,2026-09-28
+supabase,Supabase,1285,8372,4096,2026-09-28
+rocket-chat,Rocket.Chat,1290,5740,8192,2026-09-28
+nocodb,NocoDB,1557,2230,2048,2026-09-28
+rybbit,Rybbit,1665,4053,2048,2026-09-28
+immich,Immich,1940,5836,6144,2026-08-28
+mailcow,Mailcow,2220,4965,6144,2026-08-28
+twenty,Twenty,2232,2539,2048,2026-09-28
+graylog,Graylog,2998,5503,8192,2026-09-29
